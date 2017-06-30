@@ -117,11 +117,54 @@ namespace Clash_of_Clans_Calculator
                 ",mauern10_lv=" + mauer10_lvl.Value +
                 ",mauern11_lv=" + mauer11_lvl.Value +
                 ",mauern12_lv=" + mauer12_lvl.Value, "WHERE u_id = " + label_uid.Text);
+            //bomben1_lv
+            db.db_update(con_string,
+               "UPDATE user_fallen_lv SET bombe1_lv =" + bombe1_lvl.Value +
+               ",bombe2_lv=" + bombe2_lvl.Value +
+               ",bombe3_lv=" + bombe3_lvl.Value +
+               ",bombe4_lv=" + bombe4_lvl.Value +
+               ",bombe5_lv=" + bombe5_lvl.Value +
+               ",bombe6_lv=" + bombe6_lvl.Value, "WHERE u_id = " + label_uid.Text);
+
+            //bigbomb1_lv
+            db.db_update(con_string,
+               "UPDATE user_fallen_lv SET bigbomb1_lv =" + bigbomb1_lvl.Value +
+               ",bigbomb2_lv=" + bigbomb2_lvl.Value +
+               ",bigbomb3_lv=" + bigbomb3_lvl.Value +
+               ",bigbomb4_lv=" + bigbomb4_lvl.Value +
+               ",bigbomb5_lv=" + bigbomb5_lvl.Value, "WHERE u_id = " + label_uid.Text);
+            //sprungfeder1_lv
+            db.db_update(con_string,
+                "UPDATE user_fallen_lv SET sprungfeder1_lv =" + sprungfeder1_lvl.Value +
+                ",sprungfeder2_lv=" + sprungfeder2_lvl.Value +
+                ",sprungfeder3_lv=" + sprungfeder3_lvl.Value +
+                ",sprungfeder4_lv=" + sprungfeder4_lvl.Value +
+                ",sprungfeder5_lv=" + sprungfeder5_lvl.Value +
+                ",sprungfeder6_lv=" + sprungfeder6_lvl.Value, "WHERE u_id = " + label_uid.Text);
+            //targetluftbombe1_lv
+            db.db_update(con_string,
+                "UPDATE user_fallen_lv SET targetluftbombe1_lv =" + targetluftbombe1_lvl.Value +
+                ",targetluftbombe2_lv=" + targetluftbombe2_lvl.Value +
+                ",targetluftbombe3_lv=" + targetluftbombe3_lvl.Value +
+                ",targetluftbombe4_lv=" + targetluftbombe4_lvl.Value +
+                ",targetluftbombe5_lv=" + targetluftbombe5_lvl.Value , "WHERE u_id = " + label_uid.Text);
+            //luftbombe1_lv
+            db.db_update(con_string,
+                "UPDATE user_fallen_lv SET luftbombe1_lv =" + luftbombe1_lvl.Value +
+                ",luftbombe2_lv=" + luftbombe2_lvl.Value +
+                ",luftbombe3_lv=" + luftbombe3_lvl.Value +
+                ",luftbombe4_lv=" + luftbombe4_lvl.Value +
+                ",luftbombe5_lv=" + luftbombe5_lvl.Value, "WHERE u_id = " + label_uid.Text);
+            //skelettfalle1_lv
+            db.db_update(con_string,
+                "UPDATE user_fallen_lv SET skelettfalle1_lv =" + skelettfalle1_lvl.Value +
+                ",skelettfalle2_lv=" + skelettfalle2_lvl.Value +
+                ",skelettfalle3_lv=" + skelettfalle3_lvl.Value, "WHERE u_id = " + label_uid.Text);
         }
 
-        private void fill_numupdown(int anzahl, string nameBox, string nameUD, string fieldname, string table)
+        private void fill_numupdown(GroupBox box, int anzahl, string nameUD, string fieldname, string tableuser,  string table)
         {
-            GroupBox box = (GroupBox)tabPage_Abwehr.Controls[nameBox];
+            //GroupBox box = (GroupBox)tabPage_Abwehr.Controls[nameBox];
             ClashDatabase db = new ClashDatabase();
             
             for (int i = 1; i <= anzahl; i++)
@@ -130,7 +173,7 @@ namespace Clash_of_Clans_Calculator
                 try
                 {
                     
-                    cnt.Value = Convert.ToInt32(db.db_select(con_string, "SELECT " + fieldname + i + "_lv from user_abwehr_lv").ElementAt(0));
+                    cnt.Value = Convert.ToInt32(db.db_select(con_string, "SELECT " + fieldname + i + "_lv from "+tableuser).ElementAt(0));
                     if(nameUD != "mauer")
                     kosten_gesamt += Convert.ToInt32(db.db_select(con_string, "SELECT SUM(Kosten) AS 'GES' FROM \"" + table + "\" WHERE Level > " + cnt.Value.ToString()).ElementAt(0)); 
                 }
@@ -144,22 +187,28 @@ namespace Clash_of_Clans_Calculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            fill_numupdown(7,"groupBox_kanone","kanon","kanone","Kanone");
-            fill_numupdown(8, "groupBox_bogenturm", "bogen", "bogenturm","Bogenschützenturm");
-            fill_numupdown(3, "groupBox_moerser", "moerser", "moerser","Mörser");
-            fill_numupdown(4, "groupBox_luftabwehr", "luftabwehr", "luftabwehr","Luftabwehr");
-            fill_numupdown(2, "groupBox_luftsweeper", "luftsweeper", "luftsweeper","Luftsweeper");
-            fill_numupdown(2, "groupBox_bombenturm", "bombenturm", "bombenturm","Bombenturm");
-            fill_numupdown(5, "groupBox_magierturm", "magierturm", "magierturm","Magierturm");
-            fill_numupdown(4, "groupBox_tesla", "tesla", "tesla","Tesla");
-            fill_numupdown(3, "groupBox_xbogen", "xbogen", "xbogen","X-Bogen");
-            fill_numupdown(2, "groupBox_infernoturm", "inferno", "infernoturm","Infernoturm");
-            fill_numupdown(1, "groupBox_eagle", "eagle", "eagle","Eagle");
-            fill_numupdown(12, "groupBox_mauern", "mauer", "mauern","Mauern");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_kanone"], 7, "kanon", "kanone", "user_abwehr_lv", "Kanone");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_bogenturm"], 8, "bogen", "bogenturm", "user_abwehr_lv", "Bogenschützenturm");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_moerser"], 3, "moerser", "moerser", "user_abwehr_lv", "Mörser");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_luftabwehr"], 4, "luftabwehr", "luftabwehr", "user_abwehr_lv", "Luftabwehr");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_luftsweeper"], 2, "luftsweeper", "luftsweeper", "user_abwehr_lv", "Luftsweeper");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_bombenturm"], 2, "bombenturm", "bombenturm", "user_abwehr_lv", "Bombenturm");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_magierturm"], 5, "magierturm", "magierturm", "user_abwehr_lv", "Magierturm");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_tesla"], 4, "tesla", "tesla", "user_abwehr_lv", "Tesla");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_xbogen"], 3, "xbogen", "xbogen", "user_abwehr_lv", "X-Bogen");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_infernoturm"], 2, "inferno", "infernoturm", "user_abwehr_lv", "Infernoturm");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_eagle"], 1, "eagle", "eagle", "user_abwehr_lv", "Eagle");
+            fill_numupdown((GroupBox)tabPage_Abwehr.Controls["groupBox_mauern"], 12, "mauer", "mauern", "user_abwehr_lv", "Mauern");
+            //Tab2 Fallen
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Bomben"], 6, "bombe", "bombe", "user_fallen_lv", "Bombe");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_BigBombs"], 5, "bigbomb", "bigbomb", "user_fallen_lv", "BigBomb");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Sprungfedern"], 6, "sprungfeder", "sprungfeder", "user_fallen_lv", "Sprungfeder");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Luftbomben"], 5, "luftbombe", "luftbombe", "user_fallen_lv", "Luftbombe");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_targetLuftBomben"], 5, "targetluftbombe", "targetluftbombe", "user_fallen_lv", "TargetLuftbombe");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Skelettfallen"], 3, "skelettfalle1", "skelettfalle", "user_fallen_lv", "Skelettfalle");
             string kosten = String.Format("{0:#,###0}",kosten_gesamt);
             label_kosten_gesamt.Text = kosten;
         }
-
 
     }
 }

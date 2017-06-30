@@ -110,37 +110,29 @@
             this.kanon3_lvl = new System.Windows.Forms.NumericUpDown();
             this.kanon2_lvl = new System.Windows.Forms.NumericUpDown();
             this.kanon1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.tabPage_Helden = new System.Windows.Forms.TabPage();
-            this.tabPage_Ergebnis = new System.Windows.Forms.TabPage();
-            this.label_uid = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label_kosten_gesamt = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.bk_lvl = new System.Windows.Forms.NumericUpDown();
-            this.aq_lvl = new System.Windows.Forms.NumericUpDown();
-            this.gw_lvl = new System.Windows.Forms.NumericUpDown();
-            this.tabPage_Armee = new System.Windows.Forms.TabPage();
             this.tabPage_Fallen = new System.Windows.Forms.TabPage();
-            this.tabPage_Produktion = new System.Windows.Forms.TabPage();
-            this.tabPage_buildings = new System.Windows.Forms.TabPage();
-            this.groupBox_Bomben = new System.Windows.Forms.GroupBox();
-            this.bombe6_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bombe5_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bombe4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bombe3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bombe2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bombe1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Skelettfallen = new System.Windows.Forms.GroupBox();
+            this.skelettfalle1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.skelettfalle2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.skelettfalle3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_TargetLuftBomben = new System.Windows.Forms.GroupBox();
+            this.targetluftbombe1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.targetluftbombe5_lvl = new System.Windows.Forms.NumericUpDown();
+            this.targetluftbombe2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.targetluftbombe4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.targetluftbombe3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Luftbomben = new System.Windows.Forms.GroupBox();
+            this.luftbombe1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.luftbombe5_lvl = new System.Windows.Forms.NumericUpDown();
+            this.luftbombe2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.luftbombe4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.luftbombe3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_BigBombs = new System.Windows.Forms.GroupBox();
+            this.bigbomb1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bigbomb5_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bigbomb2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bigbomb4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bigbomb3_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_Sprungfedern = new System.Windows.Forms.GroupBox();
             this.sprungfeder6_lvl = new System.Windows.Forms.NumericUpDown();
             this.sprungfeder1_lvl = new System.Windows.Forms.NumericUpDown();
@@ -148,57 +140,59 @@
             this.sprungfeder2_lvl = new System.Windows.Forms.NumericUpDown();
             this.sprungfeder4_lvl = new System.Windows.Forms.NumericUpDown();
             this.sprungfeder3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_BigBombs = new System.Windows.Forms.GroupBox();
-            this.bigbomb1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bigbomb5_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bigbomb2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bigbomb4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.bigbomb3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Luftbomben = new System.Windows.Forms.GroupBox();
-            this.luftbombe1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.luftbombe5_lvl = new System.Windows.Forms.NumericUpDown();
-            this.luftbombe2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.luftbombe4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.luftbombe3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_TargetLuftBomben = new System.Windows.Forms.GroupBox();
-            this.targetluftbombe1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.targetluftbombe5_lvl = new System.Windows.Forms.NumericUpDown();
-            this.targetluftbombe2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.targetluftbombe4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.targetluftbombe3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Skelettfallen = new System.Windows.Forms.GroupBox();
-            this.skellettfalle1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.skellettfalle2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.skellettfalle3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Armeelager = new System.Windows.Forms.GroupBox();
-            this.armeelager1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.armeelager2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.armeelager3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.armeelager4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Bomben = new System.Windows.Forms.GroupBox();
+            this.bombe6_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bombe1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bombe5_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bombe2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bombe4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.bombe3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.tabPage_Armee = new System.Windows.Forms.TabPage();
+            this.groupBox_DarkZauberFabrik = new System.Windows.Forms.GroupBox();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Zauberfabrik = new System.Windows.Forms.GroupBox();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Labor = new System.Windows.Forms.GroupBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_DunkleBaracken = new System.Windows.Forms.GroupBox();
+            this.dunklebaracke1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.dunklebaracke2_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_Baracken = new System.Windows.Forms.GroupBox();
             this.baracke4_lvl = new System.Windows.Forms.NumericUpDown();
             this.baracke1_lvl = new System.Windows.Forms.NumericUpDown();
             this.baracke2_lvl = new System.Windows.Forms.NumericUpDown();
             this.baracke3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_DunkleBaracken = new System.Windows.Forms.GroupBox();
-            this.dunklebaracke1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.dunklebaracke2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Labor = new System.Windows.Forms.GroupBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Zauberfabrik = new System.Windows.Forms.GroupBox();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_DarkZauberFabrik = new System.Windows.Forms.GroupBox();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Haupthaus = new System.Windows.Forms.GroupBox();
-            this.haupthaus1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Goldminen = new System.Windows.Forms.GroupBox();
-            this.goldmine7_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldmine6_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldmine5_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldmine4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldmine3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldmine2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldmine1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Armeelager = new System.Windows.Forms.GroupBox();
+            this.armeelager4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.armeelager1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.armeelager2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.armeelager3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.tabPage_Helden = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.gw_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.aq_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.bk_lvl = new System.Windows.Forms.NumericUpDown();
+            this.tabPage_Produktion = new System.Windows.Forms.TabPage();
+            this.groupBox_ClanFestung = new System.Windows.Forms.GroupBox();
+            this.Clanfestung1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_darkElixierLager = new System.Windows.Forms.GroupBox();
+            this.darkElixierLager1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_darkElixierBohrer = new System.Windows.Forms.GroupBox();
+            this.darkElixierBohrer3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.darkElixierBohrer2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.darkElixierBohrer1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Elixierlager = new System.Windows.Forms.GroupBox();
+            this.Elixierlager4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.Elixierlager3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.Elixierlager2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.Elixierlager1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_goldlager = new System.Windows.Forms.GroupBox();
+            this.goldlager4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldlager3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldlager2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldlager1_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_Elixiersammler = new System.Windows.Forms.GroupBox();
             this.elixiersammler7_lvl = new System.Windows.Forms.NumericUpDown();
             this.elixiersammler6_lvl = new System.Windows.Forms.NumericUpDown();
@@ -207,24 +201,30 @@
             this.elixiersammler3_lvl = new System.Windows.Forms.NumericUpDown();
             this.elixiersammler2_lvl = new System.Windows.Forms.NumericUpDown();
             this.elixiersammler1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_goldlager = new System.Windows.Forms.GroupBox();
-            this.goldlager4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldlager3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldlager2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.goldlager1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_Elixierlager = new System.Windows.Forms.GroupBox();
-            this.Elixierlager4_lvl = new System.Windows.Forms.NumericUpDown();
-            this.Elixierlager3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.Elixierlager2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.Elixierlager1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_darkElixierBohrer = new System.Windows.Forms.GroupBox();
-            this.darkElixierBohrer3_lvl = new System.Windows.Forms.NumericUpDown();
-            this.darkElixierBohrer2_lvl = new System.Windows.Forms.NumericUpDown();
-            this.darkElixierBohrer1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_darkElixierLager = new System.Windows.Forms.GroupBox();
-            this.darkElixierLager1_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox_ClanFestung = new System.Windows.Forms.GroupBox();
-            this.Clanfestung1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Goldminen = new System.Windows.Forms.GroupBox();
+            this.goldmine7_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldmine6_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldmine5_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldmine4_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldmine3_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldmine2_lvl = new System.Windows.Forms.NumericUpDown();
+            this.goldmine1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_Haupthaus = new System.Windows.Forms.GroupBox();
+            this.haupthaus1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.tabPage_buildings = new System.Windows.Forms.TabPage();
+            this.tabPage_Ergebnis = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label_uid = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label_kosten_gesamt = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage_Abwehr.SuspendLayout();
             this.groupBox_mauern.SuspendLayout();
@@ -294,26 +294,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.kanon3_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kanon2_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kanon1_lvl)).BeginInit();
-            this.tabPage_Helden.SuspendLayout();
-            this.tabPage_Ergebnis.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bk_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aq_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gw_lvl)).BeginInit();
-            this.tabPage_Armee.SuspendLayout();
             this.tabPage_Fallen.SuspendLayout();
-            this.tabPage_Produktion.SuspendLayout();
-            this.groupBox_Bomben.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe6_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe5_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe3_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe1_lvl)).BeginInit();
+            this.groupBox_Skelettfallen.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.skelettfalle1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.skelettfalle2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.skelettfalle3_lvl)).BeginInit();
+            this.groupBox_TargetLuftBomben.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe5_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe3_lvl)).BeginInit();
+            this.groupBox_Luftbomben.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe5_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe3_lvl)).BeginInit();
+            this.groupBox_BigBombs.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb5_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb3_lvl)).BeginInit();
             this.groupBox_Sprungfedern.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder6_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder1_lvl)).BeginInit();
@@ -321,57 +324,59 @@
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder2_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder4_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder3_lvl)).BeginInit();
-            this.groupBox_BigBombs.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb1_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb5_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb3_lvl)).BeginInit();
-            this.groupBox_Luftbomben.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe1_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe5_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe3_lvl)).BeginInit();
-            this.groupBox_TargetLuftBomben.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe1_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe5_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe3_lvl)).BeginInit();
-            this.groupBox_Skelettfallen.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skellettfalle1_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skellettfalle2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skellettfalle3_lvl)).BeginInit();
-            this.groupBox_Armeelager.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager1_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager3_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager4_lvl)).BeginInit();
+            this.groupBox_Bomben.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe6_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe5_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe3_lvl)).BeginInit();
+            this.tabPage_Armee.SuspendLayout();
+            this.groupBox_DarkZauberFabrik.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            this.groupBox_Zauberfabrik.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.groupBox_Labor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.groupBox_DunkleBaracken.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke2_lvl)).BeginInit();
             this.groupBox_Baracken.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baracke4_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baracke1_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baracke2_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baracke3_lvl)).BeginInit();
-            this.groupBox_DunkleBaracken.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke1_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke2_lvl)).BeginInit();
-            this.groupBox_Labor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.groupBox_Zauberfabrik.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            this.groupBox_DarkZauberFabrik.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            this.groupBox_Haupthaus.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.haupthaus1_lvl)).BeginInit();
-            this.groupBox_Goldminen.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine7_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine6_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine5_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine3_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine1_lvl)).BeginInit();
+            this.groupBox_Armeelager.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager1_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager3_lvl)).BeginInit();
+            this.tabPage_Helden.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gw_lvl)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.aq_lvl)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bk_lvl)).BeginInit();
+            this.tabPage_Produktion.SuspendLayout();
+            this.groupBox_ClanFestung.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).BeginInit();
+            this.groupBox_darkElixierLager.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierLager1_lvl)).BeginInit();
+            this.groupBox_darkElixierBohrer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer3_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer1_lvl)).BeginInit();
+            this.groupBox_Elixierlager.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager3_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager1_lvl)).BeginInit();
+            this.groupBox_goldlager.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager3_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager1_lvl)).BeginInit();
             this.groupBox_Elixiersammler.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler7_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler6_lvl)).BeginInit();
@@ -380,24 +385,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler3_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler2_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler1_lvl)).BeginInit();
-            this.groupBox_goldlager.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager3_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager1_lvl)).BeginInit();
-            this.groupBox_Elixierlager.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager4_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager3_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager1_lvl)).BeginInit();
-            this.groupBox_darkElixierBohrer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer3_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer2_lvl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer1_lvl)).BeginInit();
-            this.groupBox_darkElixierLager.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierLager1_lvl)).BeginInit();
-            this.groupBox_ClanFestung.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).BeginInit();
+            this.groupBox_Goldminen.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine7_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine6_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine5_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine4_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine3_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine2_lvl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine1_lvl)).BeginInit();
+            this.groupBox_Haupthaus.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.haupthaus1_lvl)).BeginInit();
+            this.tabPage_Ergebnis.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -1391,227 +1391,6 @@
             this.kanon1_lvl.Size = new System.Drawing.Size(48, 22);
             this.kanon1_lvl.TabIndex = 0;
             // 
-            // tabPage_Helden
-            // 
-            this.tabPage_Helden.Controls.Add(this.groupBox6);
-            this.tabPage_Helden.Controls.Add(this.groupBox5);
-            this.tabPage_Helden.Controls.Add(this.groupBox4);
-            this.tabPage_Helden.Location = new System.Drawing.Point(4, 25);
-            this.tabPage_Helden.Name = "tabPage_Helden";
-            this.tabPage_Helden.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Helden.Size = new System.Drawing.Size(859, 479);
-            this.tabPage_Helden.TabIndex = 1;
-            this.tabPage_Helden.Text = "Helden";
-            this.tabPage_Helden.UseVisualStyleBackColor = true;
-            // 
-            // tabPage_Ergebnis
-            // 
-            this.tabPage_Ergebnis.Controls.Add(this.groupBox3);
-            this.tabPage_Ergebnis.Controls.Add(this.groupBox2);
-            this.tabPage_Ergebnis.Controls.Add(this.groupBox1);
-            this.tabPage_Ergebnis.Location = new System.Drawing.Point(4, 25);
-            this.tabPage_Ergebnis.Name = "tabPage_Ergebnis";
-            this.tabPage_Ergebnis.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Ergebnis.Size = new System.Drawing.Size(859, 479);
-            this.tabPage_Ergebnis.TabIndex = 2;
-            this.tabPage_Ergebnis.Text = "Ergebnis";
-            this.tabPage_Ergebnis.UseVisualStyleBackColor = true;
-            // 
-            // label_uid
-            // 
-            this.label_uid.AutoSize = true;
-            this.label_uid.Location = new System.Drawing.Point(808, 510);
-            this.label_uid.Name = "label_uid";
-            this.label_uid.Size = new System.Drawing.Size(48, 17);
-            this.label_uid.TabIndex = 17;
-            this.label_uid.Text = "00001";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(735, 510);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(67, 17);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "USERID: ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(12, 510);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(107, 17);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Gesamtkosten: ";
-            // 
-            // label_kosten_gesamt
-            // 
-            this.label_kosten_gesamt.AutoSize = true;
-            this.label_kosten_gesamt.Location = new System.Drawing.Point(123, 510);
-            this.label_kosten_gesamt.Name = "label_kosten_gesamt";
-            this.label_kosten_gesamt.Size = new System.Drawing.Size(16, 17);
-            this.label_kosten_gesamt.TabIndex = 19;
-            this.label_kosten_gesamt.Text = "0";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 70);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(146, 17);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "gesamte Goldkosten: ";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 28);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(153, 17);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "gesamte Elixierkosten: ";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Location = new System.Drawing.Point(12, 335);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(390, 132);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Gesamtkosten";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(9, 109);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(199, 17);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "gesamte dunkle Elixierkosten: ";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label19);
-            this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Location = new System.Drawing.Point(423, 341);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(330, 126);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Zeit";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 28);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(171, 17);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "summierte Gesamtdauer: ";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(6, 70);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(188, 17);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Dauer / Anzahl Bauarbeiter: ";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Location = new System.Drawing.Point(12, 7);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(839, 328);
-            this.groupBox3.TabIndex = 4;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "graphische Darstellung";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.bk_lvl);
-            this.groupBox4.Location = new System.Drawing.Point(82, 203);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(200, 100);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Barbarenkönig";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.aq_lvl);
-            this.groupBox5.Location = new System.Drawing.Point(329, 203);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(200, 100);
-            this.groupBox5.TabIndex = 1;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Bogenkönigin";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.gw_lvl);
-            this.groupBox6.Location = new System.Drawing.Point(565, 203);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(200, 100);
-            this.groupBox6.TabIndex = 2;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "großer Wächter";
-            // 
-            // bk_lvl
-            // 
-            this.bk_lvl.Location = new System.Drawing.Point(73, 39);
-            this.bk_lvl.Maximum = new decimal(new int[] {
-            45,
-            0,
-            0,
-            0});
-            this.bk_lvl.Name = "bk_lvl";
-            this.bk_lvl.Size = new System.Drawing.Size(61, 22);
-            this.bk_lvl.TabIndex = 0;
-            // 
-            // aq_lvl
-            // 
-            this.aq_lvl.Location = new System.Drawing.Point(66, 38);
-            this.aq_lvl.Maximum = new decimal(new int[] {
-            45,
-            0,
-            0,
-            0});
-            this.aq_lvl.Name = "aq_lvl";
-            this.aq_lvl.Size = new System.Drawing.Size(58, 22);
-            this.aq_lvl.TabIndex = 0;
-            // 
-            // gw_lvl
-            // 
-            this.gw_lvl.Location = new System.Drawing.Point(71, 39);
-            this.gw_lvl.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.gw_lvl.Name = "gw_lvl";
-            this.gw_lvl.Size = new System.Drawing.Size(58, 22);
-            this.gw_lvl.TabIndex = 1;
-            // 
-            // tabPage_Armee
-            // 
-            this.tabPage_Armee.Controls.Add(this.groupBox_DarkZauberFabrik);
-            this.tabPage_Armee.Controls.Add(this.groupBox_Zauberfabrik);
-            this.tabPage_Armee.Controls.Add(this.groupBox_Labor);
-            this.tabPage_Armee.Controls.Add(this.groupBox_DunkleBaracken);
-            this.tabPage_Armee.Controls.Add(this.groupBox_Baracken);
-            this.tabPage_Armee.Controls.Add(this.groupBox_Armeelager);
-            this.tabPage_Armee.Location = new System.Drawing.Point(4, 25);
-            this.tabPage_Armee.Name = "tabPage_Armee";
-            this.tabPage_Armee.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Armee.Size = new System.Drawing.Size(859, 479);
-            this.tabPage_Armee.TabIndex = 3;
-            this.tabPage_Armee.Text = "Armee";
-            this.tabPage_Armee.UseVisualStyleBackColor = true;
-            // 
             // tabPage_Fallen
             // 
             this.tabPage_Fallen.Controls.Add(this.groupBox_Skelettfallen);
@@ -1627,118 +1406,275 @@
             this.tabPage_Fallen.Text = "Fallen";
             this.tabPage_Fallen.UseVisualStyleBackColor = true;
             // 
-            // tabPage_Produktion
+            // groupBox_Skelettfallen
             // 
-            this.tabPage_Produktion.Controls.Add(this.groupBox_ClanFestung);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_darkElixierLager);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_darkElixierBohrer);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_Elixierlager);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_goldlager);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_Elixiersammler);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_Goldminen);
-            this.tabPage_Produktion.Controls.Add(this.groupBox_Haupthaus);
-            this.tabPage_Produktion.Location = new System.Drawing.Point(4, 25);
-            this.tabPage_Produktion.Name = "tabPage_Produktion";
-            this.tabPage_Produktion.Size = new System.Drawing.Size(859, 479);
-            this.tabPage_Produktion.TabIndex = 5;
-            this.tabPage_Produktion.Text = "Produktion/Lager";
-            this.tabPage_Produktion.UseVisualStyleBackColor = true;
+            this.groupBox_Skelettfallen.Controls.Add(this.skelettfalle1_lvl);
+            this.groupBox_Skelettfallen.Controls.Add(this.skelettfalle2_lvl);
+            this.groupBox_Skelettfallen.Controls.Add(this.skelettfalle3_lvl);
+            this.groupBox_Skelettfallen.Location = new System.Drawing.Point(589, 220);
+            this.groupBox_Skelettfallen.Name = "groupBox_Skelettfallen";
+            this.groupBox_Skelettfallen.Size = new System.Drawing.Size(202, 146);
+            this.groupBox_Skelettfallen.TabIndex = 5;
+            this.groupBox_Skelettfallen.TabStop = false;
+            this.groupBox_Skelettfallen.Text = "Skelettfallen";
             // 
-            // tabPage_buildings
+            // skelettfalle1_lvl
             // 
-            this.tabPage_buildings.Location = new System.Drawing.Point(4, 25);
-            this.tabPage_buildings.Name = "tabPage_buildings";
-            this.tabPage_buildings.Size = new System.Drawing.Size(859, 479);
-            this.tabPage_buildings.TabIndex = 6;
-            this.tabPage_buildings.Text = "sontige Gebäude";
-            this.tabPage_buildings.UseVisualStyleBackColor = true;
-            // 
-            // groupBox_Bomben
-            // 
-            this.groupBox_Bomben.Controls.Add(this.bombe6_lvl);
-            this.groupBox_Bomben.Controls.Add(this.bombe1_lvl);
-            this.groupBox_Bomben.Controls.Add(this.bombe5_lvl);
-            this.groupBox_Bomben.Controls.Add(this.bombe2_lvl);
-            this.groupBox_Bomben.Controls.Add(this.bombe4_lvl);
-            this.groupBox_Bomben.Controls.Add(this.bombe3_lvl);
-            this.groupBox_Bomben.Location = new System.Drawing.Point(102, 56);
-            this.groupBox_Bomben.Name = "groupBox_Bomben";
-            this.groupBox_Bomben.Size = new System.Drawing.Size(202, 146);
-            this.groupBox_Bomben.TabIndex = 0;
-            this.groupBox_Bomben.TabStop = false;
-            this.groupBox_Bomben.Text = "Bomben";
-            // 
-            // bombe6_lvl
-            // 
-            this.bombe6_lvl.Location = new System.Drawing.Point(108, 88);
-            this.bombe6_lvl.Maximum = new decimal(new int[] {
-            6,
+            this.skelettfalle1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.skelettfalle1_lvl.Maximum = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.bombe6_lvl.Name = "bombe6_lvl";
-            this.bombe6_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bombe6_lvl.TabIndex = 16;
+            this.skelettfalle1_lvl.Name = "skelettfalle1_lvl";
+            this.skelettfalle1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.skelettfalle1_lvl.TabIndex = 11;
             // 
-            // bombe5_lvl
+            // skelettfalle2_lvl
             // 
-            this.bombe5_lvl.Location = new System.Drawing.Point(108, 60);
-            this.bombe5_lvl.Maximum = new decimal(new int[] {
-            6,
+            this.skelettfalle2_lvl.Location = new System.Drawing.Point(34, 60);
+            this.skelettfalle2_lvl.Maximum = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.bombe5_lvl.Name = "bombe5_lvl";
-            this.bombe5_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bombe5_lvl.TabIndex = 15;
+            this.skelettfalle2_lvl.Name = "skelettfalle2_lvl";
+            this.skelettfalle2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.skelettfalle2_lvl.TabIndex = 12;
             // 
-            // bombe4_lvl
+            // skelettfalle3_lvl
             // 
-            this.bombe4_lvl.Location = new System.Drawing.Point(108, 32);
-            this.bombe4_lvl.Maximum = new decimal(new int[] {
-            6,
+            this.skelettfalle3_lvl.Location = new System.Drawing.Point(108, 32);
+            this.skelettfalle3_lvl.Maximum = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.bombe4_lvl.Name = "bombe4_lvl";
-            this.bombe4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bombe4_lvl.TabIndex = 14;
+            this.skelettfalle3_lvl.Name = "skelettfalle3_lvl";
+            this.skelettfalle3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.skelettfalle3_lvl.TabIndex = 14;
             // 
-            // bombe3_lvl
+            // groupBox_TargetLuftBomben
             // 
-            this.bombe3_lvl.Location = new System.Drawing.Point(34, 88);
-            this.bombe3_lvl.Maximum = new decimal(new int[] {
-            6,
+            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe1_lvl);
+            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe5_lvl);
+            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe2_lvl);
+            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe4_lvl);
+            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe3_lvl);
+            this.groupBox_TargetLuftBomben.Location = new System.Drawing.Point(334, 220);
+            this.groupBox_TargetLuftBomben.Name = "groupBox_TargetLuftBomben";
+            this.groupBox_TargetLuftBomben.Size = new System.Drawing.Size(202, 146);
+            this.groupBox_TargetLuftBomben.TabIndex = 4;
+            this.groupBox_TargetLuftBomben.TabStop = false;
+            this.groupBox_TargetLuftBomben.Text = "zielsuchende Luftbomben";
+            // 
+            // targetluftbombe1_lvl
+            // 
+            this.targetluftbombe1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.targetluftbombe1_lvl.Maximum = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.bombe3_lvl.Name = "bombe3_lvl";
-            this.bombe3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bombe3_lvl.TabIndex = 13;
+            this.targetluftbombe1_lvl.Name = "targetluftbombe1_lvl";
+            this.targetluftbombe1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.targetluftbombe1_lvl.TabIndex = 11;
             // 
-            // bombe2_lvl
+            // targetluftbombe5_lvl
             // 
-            this.bombe2_lvl.Location = new System.Drawing.Point(34, 60);
-            this.bombe2_lvl.Maximum = new decimal(new int[] {
-            6,
+            this.targetluftbombe5_lvl.Location = new System.Drawing.Point(108, 60);
+            this.targetluftbombe5_lvl.Maximum = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.bombe2_lvl.Name = "bombe2_lvl";
-            this.bombe2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bombe2_lvl.TabIndex = 12;
+            this.targetluftbombe5_lvl.Name = "targetluftbombe5_lvl";
+            this.targetluftbombe5_lvl.Size = new System.Drawing.Size(48, 22);
+            this.targetluftbombe5_lvl.TabIndex = 15;
             // 
-            // bombe1_lvl
+            // targetluftbombe2_lvl
             // 
-            this.bombe1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.bombe1_lvl.Maximum = new decimal(new int[] {
-            6,
+            this.targetluftbombe2_lvl.Location = new System.Drawing.Point(34, 60);
+            this.targetluftbombe2_lvl.Maximum = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.bombe1_lvl.Name = "bombe1_lvl";
-            this.bombe1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bombe1_lvl.TabIndex = 11;
+            this.targetluftbombe2_lvl.Name = "targetluftbombe2_lvl";
+            this.targetluftbombe2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.targetluftbombe2_lvl.TabIndex = 12;
+            // 
+            // targetluftbombe4_lvl
+            // 
+            this.targetluftbombe4_lvl.Location = new System.Drawing.Point(108, 32);
+            this.targetluftbombe4_lvl.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.targetluftbombe4_lvl.Name = "targetluftbombe4_lvl";
+            this.targetluftbombe4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.targetluftbombe4_lvl.TabIndex = 14;
+            // 
+            // targetluftbombe3_lvl
+            // 
+            this.targetluftbombe3_lvl.Location = new System.Drawing.Point(34, 88);
+            this.targetluftbombe3_lvl.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.targetluftbombe3_lvl.Name = "targetluftbombe3_lvl";
+            this.targetluftbombe3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.targetluftbombe3_lvl.TabIndex = 13;
+            // 
+            // groupBox_Luftbomben
+            // 
+            this.groupBox_Luftbomben.Controls.Add(this.luftbombe1_lvl);
+            this.groupBox_Luftbomben.Controls.Add(this.luftbombe5_lvl);
+            this.groupBox_Luftbomben.Controls.Add(this.luftbombe2_lvl);
+            this.groupBox_Luftbomben.Controls.Add(this.luftbombe4_lvl);
+            this.groupBox_Luftbomben.Controls.Add(this.luftbombe3_lvl);
+            this.groupBox_Luftbomben.Location = new System.Drawing.Point(102, 220);
+            this.groupBox_Luftbomben.Name = "groupBox_Luftbomben";
+            this.groupBox_Luftbomben.Size = new System.Drawing.Size(202, 146);
+            this.groupBox_Luftbomben.TabIndex = 3;
+            this.groupBox_Luftbomben.TabStop = false;
+            this.groupBox_Luftbomben.Text = "Luftbomben";
+            // 
+            // luftbombe1_lvl
+            // 
+            this.luftbombe1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.luftbombe1_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.luftbombe1_lvl.Name = "luftbombe1_lvl";
+            this.luftbombe1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.luftbombe1_lvl.TabIndex = 11;
+            // 
+            // luftbombe5_lvl
+            // 
+            this.luftbombe5_lvl.Location = new System.Drawing.Point(108, 60);
+            this.luftbombe5_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.luftbombe5_lvl.Name = "luftbombe5_lvl";
+            this.luftbombe5_lvl.Size = new System.Drawing.Size(48, 22);
+            this.luftbombe5_lvl.TabIndex = 15;
+            // 
+            // luftbombe2_lvl
+            // 
+            this.luftbombe2_lvl.Location = new System.Drawing.Point(34, 60);
+            this.luftbombe2_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.luftbombe2_lvl.Name = "luftbombe2_lvl";
+            this.luftbombe2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.luftbombe2_lvl.TabIndex = 12;
+            // 
+            // luftbombe4_lvl
+            // 
+            this.luftbombe4_lvl.Location = new System.Drawing.Point(108, 32);
+            this.luftbombe4_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.luftbombe4_lvl.Name = "luftbombe4_lvl";
+            this.luftbombe4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.luftbombe4_lvl.TabIndex = 14;
+            // 
+            // luftbombe3_lvl
+            // 
+            this.luftbombe3_lvl.Location = new System.Drawing.Point(34, 88);
+            this.luftbombe3_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.luftbombe3_lvl.Name = "luftbombe3_lvl";
+            this.luftbombe3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.luftbombe3_lvl.TabIndex = 13;
+            // 
+            // groupBox_BigBombs
+            // 
+            this.groupBox_BigBombs.Controls.Add(this.bigbomb1_lvl);
+            this.groupBox_BigBombs.Controls.Add(this.bigbomb5_lvl);
+            this.groupBox_BigBombs.Controls.Add(this.bigbomb2_lvl);
+            this.groupBox_BigBombs.Controls.Add(this.bigbomb4_lvl);
+            this.groupBox_BigBombs.Controls.Add(this.bigbomb3_lvl);
+            this.groupBox_BigBombs.Location = new System.Drawing.Point(334, 56);
+            this.groupBox_BigBombs.Name = "groupBox_BigBombs";
+            this.groupBox_BigBombs.Size = new System.Drawing.Size(202, 146);
+            this.groupBox_BigBombs.TabIndex = 2;
+            this.groupBox_BigBombs.TabStop = false;
+            this.groupBox_BigBombs.Text = "große Bomben";
+            // 
+            // bigbomb1_lvl
+            // 
+            this.bigbomb1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.bigbomb1_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.bigbomb1_lvl.Name = "bigbomb1_lvl";
+            this.bigbomb1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bigbomb1_lvl.TabIndex = 11;
+            // 
+            // bigbomb5_lvl
+            // 
+            this.bigbomb5_lvl.Location = new System.Drawing.Point(108, 60);
+            this.bigbomb5_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.bigbomb5_lvl.Name = "bigbomb5_lvl";
+            this.bigbomb5_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bigbomb5_lvl.TabIndex = 15;
+            // 
+            // bigbomb2_lvl
+            // 
+            this.bigbomb2_lvl.Location = new System.Drawing.Point(34, 60);
+            this.bigbomb2_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.bigbomb2_lvl.Name = "bigbomb2_lvl";
+            this.bigbomb2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bigbomb2_lvl.TabIndex = 12;
+            // 
+            // bigbomb4_lvl
+            // 
+            this.bigbomb4_lvl.Location = new System.Drawing.Point(108, 32);
+            this.bigbomb4_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.bigbomb4_lvl.Name = "bigbomb4_lvl";
+            this.bigbomb4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bigbomb4_lvl.TabIndex = 14;
+            // 
+            // bigbomb3_lvl
+            // 
+            this.bigbomb3_lvl.Location = new System.Drawing.Point(34, 88);
+            this.bigbomb3_lvl.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.bigbomb3_lvl.Name = "bigbomb3_lvl";
+            this.bigbomb3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bigbomb3_lvl.TabIndex = 13;
             // 
             // groupBox_Sprungfedern
             // 
@@ -1827,336 +1763,209 @@
             this.sprungfeder3_lvl.Size = new System.Drawing.Size(48, 22);
             this.sprungfeder3_lvl.TabIndex = 13;
             // 
-            // groupBox_BigBombs
+            // groupBox_Bomben
             // 
-            this.groupBox_BigBombs.Controls.Add(this.bigbomb1_lvl);
-            this.groupBox_BigBombs.Controls.Add(this.bigbomb5_lvl);
-            this.groupBox_BigBombs.Controls.Add(this.bigbomb2_lvl);
-            this.groupBox_BigBombs.Controls.Add(this.bigbomb4_lvl);
-            this.groupBox_BigBombs.Controls.Add(this.bigbomb3_lvl);
-            this.groupBox_BigBombs.Location = new System.Drawing.Point(334, 56);
-            this.groupBox_BigBombs.Name = "groupBox_BigBombs";
-            this.groupBox_BigBombs.Size = new System.Drawing.Size(202, 146);
-            this.groupBox_BigBombs.TabIndex = 2;
-            this.groupBox_BigBombs.TabStop = false;
-            this.groupBox_BigBombs.Text = "große Bomben";
+            this.groupBox_Bomben.Controls.Add(this.bombe6_lvl);
+            this.groupBox_Bomben.Controls.Add(this.bombe1_lvl);
+            this.groupBox_Bomben.Controls.Add(this.bombe5_lvl);
+            this.groupBox_Bomben.Controls.Add(this.bombe2_lvl);
+            this.groupBox_Bomben.Controls.Add(this.bombe4_lvl);
+            this.groupBox_Bomben.Controls.Add(this.bombe3_lvl);
+            this.groupBox_Bomben.Location = new System.Drawing.Point(102, 56);
+            this.groupBox_Bomben.Name = "groupBox_Bomben";
+            this.groupBox_Bomben.Size = new System.Drawing.Size(202, 146);
+            this.groupBox_Bomben.TabIndex = 0;
+            this.groupBox_Bomben.TabStop = false;
+            this.groupBox_Bomben.Text = "Bomben";
             // 
-            // bigbomb1_lvl
+            // bombe6_lvl
             // 
-            this.bigbomb1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.bigbomb1_lvl.Maximum = new decimal(new int[] {
+            this.bombe6_lvl.Location = new System.Drawing.Point(108, 88);
+            this.bombe6_lvl.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.bombe6_lvl.Name = "bombe6_lvl";
+            this.bombe6_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bombe6_lvl.TabIndex = 16;
+            // 
+            // bombe1_lvl
+            // 
+            this.bombe1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.bombe1_lvl.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.bombe1_lvl.Name = "bombe1_lvl";
+            this.bombe1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bombe1_lvl.TabIndex = 11;
+            // 
+            // bombe5_lvl
+            // 
+            this.bombe5_lvl.Location = new System.Drawing.Point(108, 60);
+            this.bombe5_lvl.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.bombe5_lvl.Name = "bombe5_lvl";
+            this.bombe5_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bombe5_lvl.TabIndex = 15;
+            // 
+            // bombe2_lvl
+            // 
+            this.bombe2_lvl.Location = new System.Drawing.Point(34, 60);
+            this.bombe2_lvl.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.bombe2_lvl.Name = "bombe2_lvl";
+            this.bombe2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bombe2_lvl.TabIndex = 12;
+            // 
+            // bombe4_lvl
+            // 
+            this.bombe4_lvl.Location = new System.Drawing.Point(108, 32);
+            this.bombe4_lvl.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.bombe4_lvl.Name = "bombe4_lvl";
+            this.bombe4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bombe4_lvl.TabIndex = 14;
+            // 
+            // bombe3_lvl
+            // 
+            this.bombe3_lvl.Location = new System.Drawing.Point(34, 88);
+            this.bombe3_lvl.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.bombe3_lvl.Name = "bombe3_lvl";
+            this.bombe3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.bombe3_lvl.TabIndex = 13;
+            // 
+            // tabPage_Armee
+            // 
+            this.tabPage_Armee.Controls.Add(this.groupBox_DarkZauberFabrik);
+            this.tabPage_Armee.Controls.Add(this.groupBox_Zauberfabrik);
+            this.tabPage_Armee.Controls.Add(this.groupBox_Labor);
+            this.tabPage_Armee.Controls.Add(this.groupBox_DunkleBaracken);
+            this.tabPage_Armee.Controls.Add(this.groupBox_Baracken);
+            this.tabPage_Armee.Controls.Add(this.groupBox_Armeelager);
+            this.tabPage_Armee.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_Armee.Name = "tabPage_Armee";
+            this.tabPage_Armee.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_Armee.Size = new System.Drawing.Size(859, 479);
+            this.tabPage_Armee.TabIndex = 3;
+            this.tabPage_Armee.Text = "Armee";
+            this.tabPage_Armee.UseVisualStyleBackColor = true;
+            // 
+            // groupBox_DarkZauberFabrik
+            // 
+            this.groupBox_DarkZauberFabrik.Controls.Add(this.numericUpDown3);
+            this.groupBox_DarkZauberFabrik.Location = new System.Drawing.Point(460, 186);
+            this.groupBox_DarkZauberFabrik.Name = "groupBox_DarkZauberFabrik";
+            this.groupBox_DarkZauberFabrik.Size = new System.Drawing.Size(202, 92);
+            this.groupBox_DarkZauberFabrik.TabIndex = 20;
+            this.groupBox_DarkZauberFabrik.TabStop = false;
+            this.groupBox_DarkZauberFabrik.Text = "dunkle Zauberspruchfabrik";
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(34, 32);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.bigbomb1_lvl.Name = "bigbomb1_lvl";
-            this.bigbomb1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bigbomb1_lvl.TabIndex = 11;
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(48, 22);
+            this.numericUpDown3.TabIndex = 11;
             // 
-            // bigbomb5_lvl
+            // groupBox_Zauberfabrik
             // 
-            this.bigbomb5_lvl.Location = new System.Drawing.Point(108, 60);
-            this.bigbomb5_lvl.Maximum = new decimal(new int[] {
-            4,
+            this.groupBox_Zauberfabrik.Controls.Add(this.numericUpDown2);
+            this.groupBox_Zauberfabrik.Location = new System.Drawing.Point(238, 186);
+            this.groupBox_Zauberfabrik.Name = "groupBox_Zauberfabrik";
+            this.groupBox_Zauberfabrik.Size = new System.Drawing.Size(202, 92);
+            this.groupBox_Zauberfabrik.TabIndex = 19;
+            this.groupBox_Zauberfabrik.TabStop = false;
+            this.groupBox_Zauberfabrik.Text = "Zauberspruchfabrik";
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(34, 32);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            5,
             0,
             0,
             0});
-            this.bigbomb5_lvl.Name = "bigbomb5_lvl";
-            this.bigbomb5_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bigbomb5_lvl.TabIndex = 15;
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(48, 22);
+            this.numericUpDown2.TabIndex = 11;
             // 
-            // bigbomb2_lvl
+            // groupBox_Labor
             // 
-            this.bigbomb2_lvl.Location = new System.Drawing.Point(34, 60);
-            this.bigbomb2_lvl.Maximum = new decimal(new int[] {
-            4,
+            this.groupBox_Labor.Controls.Add(this.numericUpDown1);
+            this.groupBox_Labor.Location = new System.Drawing.Point(30, 186);
+            this.groupBox_Labor.Name = "groupBox_Labor";
+            this.groupBox_Labor.Size = new System.Drawing.Size(202, 92);
+            this.groupBox_Labor.TabIndex = 18;
+            this.groupBox_Labor.TabStop = false;
+            this.groupBox_Labor.Text = "Labor";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(34, 32);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            9,
             0,
             0,
             0});
-            this.bigbomb2_lvl.Name = "bigbomb2_lvl";
-            this.bigbomb2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bigbomb2_lvl.TabIndex = 12;
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(48, 22);
+            this.numericUpDown1.TabIndex = 11;
             // 
-            // bigbomb4_lvl
+            // groupBox_DunkleBaracken
             // 
-            this.bigbomb4_lvl.Location = new System.Drawing.Point(108, 32);
-            this.bigbomb4_lvl.Maximum = new decimal(new int[] {
-            4,
+            this.groupBox_DunkleBaracken.Controls.Add(this.dunklebaracke1_lvl);
+            this.groupBox_DunkleBaracken.Controls.Add(this.dunklebaracke2_lvl);
+            this.groupBox_DunkleBaracken.Location = new System.Drawing.Point(460, 22);
+            this.groupBox_DunkleBaracken.Name = "groupBox_DunkleBaracken";
+            this.groupBox_DunkleBaracken.Size = new System.Drawing.Size(204, 94);
+            this.groupBox_DunkleBaracken.TabIndex = 17;
+            this.groupBox_DunkleBaracken.TabStop = false;
+            this.groupBox_DunkleBaracken.Text = "dunkle Baracken";
+            // 
+            // dunklebaracke1_lvl
+            // 
+            this.dunklebaracke1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.dunklebaracke1_lvl.Maximum = new decimal(new int[] {
+            7,
             0,
             0,
             0});
-            this.bigbomb4_lvl.Name = "bigbomb4_lvl";
-            this.bigbomb4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bigbomb4_lvl.TabIndex = 14;
+            this.dunklebaracke1_lvl.Name = "dunklebaracke1_lvl";
+            this.dunklebaracke1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.dunklebaracke1_lvl.TabIndex = 11;
             // 
-            // bigbomb3_lvl
+            // dunklebaracke2_lvl
             // 
-            this.bigbomb3_lvl.Location = new System.Drawing.Point(34, 88);
-            this.bigbomb3_lvl.Maximum = new decimal(new int[] {
-            4,
+            this.dunklebaracke2_lvl.Location = new System.Drawing.Point(108, 32);
+            this.dunklebaracke2_lvl.Maximum = new decimal(new int[] {
+            7,
             0,
             0,
             0});
-            this.bigbomb3_lvl.Name = "bigbomb3_lvl";
-            this.bigbomb3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.bigbomb3_lvl.TabIndex = 13;
-            // 
-            // groupBox_Luftbomben
-            // 
-            this.groupBox_Luftbomben.Controls.Add(this.luftbombe1_lvl);
-            this.groupBox_Luftbomben.Controls.Add(this.luftbombe5_lvl);
-            this.groupBox_Luftbomben.Controls.Add(this.luftbombe2_lvl);
-            this.groupBox_Luftbomben.Controls.Add(this.luftbombe4_lvl);
-            this.groupBox_Luftbomben.Controls.Add(this.luftbombe3_lvl);
-            this.groupBox_Luftbomben.Location = new System.Drawing.Point(102, 220);
-            this.groupBox_Luftbomben.Name = "groupBox_Luftbomben";
-            this.groupBox_Luftbomben.Size = new System.Drawing.Size(202, 146);
-            this.groupBox_Luftbomben.TabIndex = 3;
-            this.groupBox_Luftbomben.TabStop = false;
-            this.groupBox_Luftbomben.Text = "Luftbomben";
-            // 
-            // luftbombe1_lvl
-            // 
-            this.luftbombe1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.luftbombe1_lvl.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.luftbombe1_lvl.Name = "luftbombe1_lvl";
-            this.luftbombe1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.luftbombe1_lvl.TabIndex = 11;
-            // 
-            // luftbombe5_lvl
-            // 
-            this.luftbombe5_lvl.Location = new System.Drawing.Point(108, 60);
-            this.luftbombe5_lvl.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.luftbombe5_lvl.Name = "luftbombe5_lvl";
-            this.luftbombe5_lvl.Size = new System.Drawing.Size(48, 22);
-            this.luftbombe5_lvl.TabIndex = 15;
-            // 
-            // luftbombe2_lvl
-            // 
-            this.luftbombe2_lvl.Location = new System.Drawing.Point(34, 60);
-            this.luftbombe2_lvl.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.luftbombe2_lvl.Name = "luftbombe2_lvl";
-            this.luftbombe2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.luftbombe2_lvl.TabIndex = 12;
-            // 
-            // luftbombe4_lvl
-            // 
-            this.luftbombe4_lvl.Location = new System.Drawing.Point(108, 32);
-            this.luftbombe4_lvl.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.luftbombe4_lvl.Name = "luftbombe4_lvl";
-            this.luftbombe4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.luftbombe4_lvl.TabIndex = 14;
-            // 
-            // luftbombe3_lvl
-            // 
-            this.luftbombe3_lvl.Location = new System.Drawing.Point(34, 88);
-            this.luftbombe3_lvl.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.luftbombe3_lvl.Name = "luftbombe3_lvl";
-            this.luftbombe3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.luftbombe3_lvl.TabIndex = 13;
-            // 
-            // groupBox_TargetLuftBomben
-            // 
-            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe1_lvl);
-            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe5_lvl);
-            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe2_lvl);
-            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe4_lvl);
-            this.groupBox_TargetLuftBomben.Controls.Add(this.targetluftbombe3_lvl);
-            this.groupBox_TargetLuftBomben.Location = new System.Drawing.Point(334, 220);
-            this.groupBox_TargetLuftBomben.Name = "groupBox_TargetLuftBomben";
-            this.groupBox_TargetLuftBomben.Size = new System.Drawing.Size(202, 146);
-            this.groupBox_TargetLuftBomben.TabIndex = 4;
-            this.groupBox_TargetLuftBomben.TabStop = false;
-            this.groupBox_TargetLuftBomben.Text = "zielsuchende Luftbomben";
-            // 
-            // targetluftbombe1_lvl
-            // 
-            this.targetluftbombe1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.targetluftbombe1_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.targetluftbombe1_lvl.Name = "targetluftbombe1_lvl";
-            this.targetluftbombe1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.targetluftbombe1_lvl.TabIndex = 11;
-            // 
-            // targetluftbombe5_lvl
-            // 
-            this.targetluftbombe5_lvl.Location = new System.Drawing.Point(108, 60);
-            this.targetluftbombe5_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.targetluftbombe5_lvl.Name = "targetluftbombe5_lvl";
-            this.targetluftbombe5_lvl.Size = new System.Drawing.Size(48, 22);
-            this.targetluftbombe5_lvl.TabIndex = 15;
-            // 
-            // targetluftbombe2_lvl
-            // 
-            this.targetluftbombe2_lvl.Location = new System.Drawing.Point(34, 60);
-            this.targetluftbombe2_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.targetluftbombe2_lvl.Name = "targetluftbombe2_lvl";
-            this.targetluftbombe2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.targetluftbombe2_lvl.TabIndex = 12;
-            // 
-            // targetluftbombe4_lvl
-            // 
-            this.targetluftbombe4_lvl.Location = new System.Drawing.Point(108, 32);
-            this.targetluftbombe4_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.targetluftbombe4_lvl.Name = "targetluftbombe4_lvl";
-            this.targetluftbombe4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.targetluftbombe4_lvl.TabIndex = 14;
-            // 
-            // targetluftbombe3_lvl
-            // 
-            this.targetluftbombe3_lvl.Location = new System.Drawing.Point(34, 88);
-            this.targetluftbombe3_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.targetluftbombe3_lvl.Name = "targetluftbombe3_lvl";
-            this.targetluftbombe3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.targetluftbombe3_lvl.TabIndex = 13;
-            // 
-            // groupBox_Skelettfallen
-            // 
-            this.groupBox_Skelettfallen.Controls.Add(this.skellettfalle1_lvl);
-            this.groupBox_Skelettfallen.Controls.Add(this.skellettfalle2_lvl);
-            this.groupBox_Skelettfallen.Controls.Add(this.skellettfalle3_lvl);
-            this.groupBox_Skelettfallen.Location = new System.Drawing.Point(589, 220);
-            this.groupBox_Skelettfallen.Name = "groupBox_Skelettfallen";
-            this.groupBox_Skelettfallen.Size = new System.Drawing.Size(202, 146);
-            this.groupBox_Skelettfallen.TabIndex = 5;
-            this.groupBox_Skelettfallen.TabStop = false;
-            this.groupBox_Skelettfallen.Text = "Skelettfallen";
-            // 
-            // skellettfalle1_lvl
-            // 
-            this.skellettfalle1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.skellettfalle1_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.skellettfalle1_lvl.Name = "skellettfalle1_lvl";
-            this.skellettfalle1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.skellettfalle1_lvl.TabIndex = 11;
-            // 
-            // skellettfalle2_lvl
-            // 
-            this.skellettfalle2_lvl.Location = new System.Drawing.Point(34, 60);
-            this.skellettfalle2_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.skellettfalle2_lvl.Name = "skellettfalle2_lvl";
-            this.skellettfalle2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.skellettfalle2_lvl.TabIndex = 12;
-            // 
-            // skellettfalle3_lvl
-            // 
-            this.skellettfalle3_lvl.Location = new System.Drawing.Point(108, 32);
-            this.skellettfalle3_lvl.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.skellettfalle3_lvl.Name = "skellettfalle3_lvl";
-            this.skellettfalle3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.skellettfalle3_lvl.TabIndex = 14;
-            // 
-            // groupBox_Armeelager
-            // 
-            this.groupBox_Armeelager.Controls.Add(this.armeelager4_lvl);
-            this.groupBox_Armeelager.Controls.Add(this.armeelager1_lvl);
-            this.groupBox_Armeelager.Controls.Add(this.armeelager2_lvl);
-            this.groupBox_Armeelager.Controls.Add(this.armeelager3_lvl);
-            this.groupBox_Armeelager.Location = new System.Drawing.Point(30, 22);
-            this.groupBox_Armeelager.Name = "groupBox_Armeelager";
-            this.groupBox_Armeelager.Size = new System.Drawing.Size(202, 146);
-            this.groupBox_Armeelager.TabIndex = 6;
-            this.groupBox_Armeelager.TabStop = false;
-            this.groupBox_Armeelager.Text = "Armeelager";
-            // 
-            // armeelager1_lvl
-            // 
-            this.armeelager1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.armeelager1_lvl.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.armeelager1_lvl.Name = "armeelager1_lvl";
-            this.armeelager1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.armeelager1_lvl.TabIndex = 11;
-            // 
-            // armeelager2_lvl
-            // 
-            this.armeelager2_lvl.Location = new System.Drawing.Point(34, 60);
-            this.armeelager2_lvl.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.armeelager2_lvl.Name = "armeelager2_lvl";
-            this.armeelager2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.armeelager2_lvl.TabIndex = 12;
-            // 
-            // armeelager3_lvl
-            // 
-            this.armeelager3_lvl.Location = new System.Drawing.Point(108, 32);
-            this.armeelager3_lvl.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.armeelager3_lvl.Name = "armeelager3_lvl";
-            this.armeelager3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.armeelager3_lvl.TabIndex = 14;
-            // 
-            // armeelager4_lvl
-            // 
-            this.armeelager4_lvl.Location = new System.Drawing.Point(108, 60);
-            this.armeelager4_lvl.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.armeelager4_lvl.Name = "armeelager4_lvl";
-            this.armeelager4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.armeelager4_lvl.TabIndex = 15;
+            this.dunklebaracke2_lvl.Name = "dunklebaracke2_lvl";
+            this.dunklebaracke2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.dunklebaracke2_lvl.TabIndex = 14;
             // 
             // groupBox_Baracken
             // 
@@ -2219,228 +2028,376 @@
             this.baracke3_lvl.Size = new System.Drawing.Size(48, 22);
             this.baracke3_lvl.TabIndex = 14;
             // 
-            // groupBox_DunkleBaracken
+            // groupBox_Armeelager
             // 
-            this.groupBox_DunkleBaracken.Controls.Add(this.dunklebaracke1_lvl);
-            this.groupBox_DunkleBaracken.Controls.Add(this.dunklebaracke2_lvl);
-            this.groupBox_DunkleBaracken.Location = new System.Drawing.Point(460, 22);
-            this.groupBox_DunkleBaracken.Name = "groupBox_DunkleBaracken";
-            this.groupBox_DunkleBaracken.Size = new System.Drawing.Size(204, 94);
-            this.groupBox_DunkleBaracken.TabIndex = 17;
-            this.groupBox_DunkleBaracken.TabStop = false;
-            this.groupBox_DunkleBaracken.Text = "dunkle Baracken";
+            this.groupBox_Armeelager.Controls.Add(this.armeelager4_lvl);
+            this.groupBox_Armeelager.Controls.Add(this.armeelager1_lvl);
+            this.groupBox_Armeelager.Controls.Add(this.armeelager2_lvl);
+            this.groupBox_Armeelager.Controls.Add(this.armeelager3_lvl);
+            this.groupBox_Armeelager.Location = new System.Drawing.Point(30, 22);
+            this.groupBox_Armeelager.Name = "groupBox_Armeelager";
+            this.groupBox_Armeelager.Size = new System.Drawing.Size(202, 146);
+            this.groupBox_Armeelager.TabIndex = 6;
+            this.groupBox_Armeelager.TabStop = false;
+            this.groupBox_Armeelager.Text = "Armeelager";
             // 
-            // dunklebaracke1_lvl
+            // armeelager4_lvl
             // 
-            this.dunklebaracke1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.dunklebaracke1_lvl.Maximum = new decimal(new int[] {
+            this.armeelager4_lvl.Location = new System.Drawing.Point(108, 60);
+            this.armeelager4_lvl.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.armeelager4_lvl.Name = "armeelager4_lvl";
+            this.armeelager4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.armeelager4_lvl.TabIndex = 15;
+            // 
+            // armeelager1_lvl
+            // 
+            this.armeelager1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.armeelager1_lvl.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.armeelager1_lvl.Name = "armeelager1_lvl";
+            this.armeelager1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.armeelager1_lvl.TabIndex = 11;
+            // 
+            // armeelager2_lvl
+            // 
+            this.armeelager2_lvl.Location = new System.Drawing.Point(34, 60);
+            this.armeelager2_lvl.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.armeelager2_lvl.Name = "armeelager2_lvl";
+            this.armeelager2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.armeelager2_lvl.TabIndex = 12;
+            // 
+            // armeelager3_lvl
+            // 
+            this.armeelager3_lvl.Location = new System.Drawing.Point(108, 32);
+            this.armeelager3_lvl.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.armeelager3_lvl.Name = "armeelager3_lvl";
+            this.armeelager3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.armeelager3_lvl.TabIndex = 14;
+            // 
+            // tabPage_Helden
+            // 
+            this.tabPage_Helden.Controls.Add(this.groupBox6);
+            this.tabPage_Helden.Controls.Add(this.groupBox5);
+            this.tabPage_Helden.Controls.Add(this.groupBox4);
+            this.tabPage_Helden.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_Helden.Name = "tabPage_Helden";
+            this.tabPage_Helden.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_Helden.Size = new System.Drawing.Size(859, 479);
+            this.tabPage_Helden.TabIndex = 1;
+            this.tabPage_Helden.Text = "Helden";
+            this.tabPage_Helden.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.gw_lvl);
+            this.groupBox6.Location = new System.Drawing.Point(565, 203);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(200, 100);
+            this.groupBox6.TabIndex = 2;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "großer Wächter";
+            // 
+            // gw_lvl
+            // 
+            this.gw_lvl.Location = new System.Drawing.Point(71, 39);
+            this.gw_lvl.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.gw_lvl.Name = "gw_lvl";
+            this.gw_lvl.Size = new System.Drawing.Size(58, 22);
+            this.gw_lvl.TabIndex = 1;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.aq_lvl);
+            this.groupBox5.Location = new System.Drawing.Point(329, 203);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(200, 100);
+            this.groupBox5.TabIndex = 1;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Bogenkönigin";
+            // 
+            // aq_lvl
+            // 
+            this.aq_lvl.Location = new System.Drawing.Point(66, 38);
+            this.aq_lvl.Maximum = new decimal(new int[] {
+            45,
+            0,
+            0,
+            0});
+            this.aq_lvl.Name = "aq_lvl";
+            this.aq_lvl.Size = new System.Drawing.Size(58, 22);
+            this.aq_lvl.TabIndex = 0;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.bk_lvl);
+            this.groupBox4.Location = new System.Drawing.Point(82, 203);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 100);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Barbarenkönig";
+            // 
+            // bk_lvl
+            // 
+            this.bk_lvl.Location = new System.Drawing.Point(73, 39);
+            this.bk_lvl.Maximum = new decimal(new int[] {
+            45,
+            0,
+            0,
+            0});
+            this.bk_lvl.Name = "bk_lvl";
+            this.bk_lvl.Size = new System.Drawing.Size(61, 22);
+            this.bk_lvl.TabIndex = 0;
+            // 
+            // tabPage_Produktion
+            // 
+            this.tabPage_Produktion.Controls.Add(this.groupBox_ClanFestung);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_darkElixierLager);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_darkElixierBohrer);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_Elixierlager);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_goldlager);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_Elixiersammler);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_Goldminen);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_Haupthaus);
+            this.tabPage_Produktion.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_Produktion.Name = "tabPage_Produktion";
+            this.tabPage_Produktion.Size = new System.Drawing.Size(859, 479);
+            this.tabPage_Produktion.TabIndex = 5;
+            this.tabPage_Produktion.Text = "Produktion/Lager";
+            this.tabPage_Produktion.UseVisualStyleBackColor = true;
+            // 
+            // groupBox_ClanFestung
+            // 
+            this.groupBox_ClanFestung.Controls.Add(this.Clanfestung1_lvl);
+            this.groupBox_ClanFestung.Location = new System.Drawing.Point(664, 27);
+            this.groupBox_ClanFestung.Name = "groupBox_ClanFestung";
+            this.groupBox_ClanFestung.Size = new System.Drawing.Size(135, 92);
+            this.groupBox_ClanFestung.TabIndex = 27;
+            this.groupBox_ClanFestung.TabStop = false;
+            this.groupBox_ClanFestung.Text = "Clanfestung";
+            // 
+            // Clanfestung1_lvl
+            // 
+            this.Clanfestung1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.Clanfestung1_lvl.Maximum = new decimal(new int[] {
             7,
             0,
             0,
             0});
-            this.dunklebaracke1_lvl.Name = "dunklebaracke1_lvl";
-            this.dunklebaracke1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.dunklebaracke1_lvl.TabIndex = 11;
+            this.Clanfestung1_lvl.Name = "Clanfestung1_lvl";
+            this.Clanfestung1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.Clanfestung1_lvl.TabIndex = 11;
             // 
-            // dunklebaracke2_lvl
+            // groupBox_darkElixierLager
             // 
-            this.dunklebaracke2_lvl.Location = new System.Drawing.Point(108, 32);
-            this.dunklebaracke2_lvl.Maximum = new decimal(new int[] {
-            7,
+            this.groupBox_darkElixierLager.Controls.Add(this.darkElixierLager1_lvl);
+            this.groupBox_darkElixierLager.Location = new System.Drawing.Point(12, 291);
+            this.groupBox_darkElixierLager.Name = "groupBox_darkElixierLager";
+            this.groupBox_darkElixierLager.Size = new System.Drawing.Size(202, 92);
+            this.groupBox_darkElixierLager.TabIndex = 26;
+            this.groupBox_darkElixierLager.TabStop = false;
+            this.groupBox_darkElixierLager.Text = "dunkles Elixierlager";
+            // 
+            // darkElixierLager1_lvl
+            // 
+            this.darkElixierLager1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.darkElixierLager1_lvl.Maximum = new decimal(new int[] {
+            6,
             0,
             0,
             0});
-            this.dunklebaracke2_lvl.Name = "dunklebaracke2_lvl";
-            this.dunklebaracke2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.dunklebaracke2_lvl.TabIndex = 14;
+            this.darkElixierLager1_lvl.Name = "darkElixierLager1_lvl";
+            this.darkElixierLager1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.darkElixierLager1_lvl.TabIndex = 11;
             // 
-            // groupBox_Labor
+            // groupBox_darkElixierBohrer
             // 
-            this.groupBox_Labor.Controls.Add(this.numericUpDown1);
-            this.groupBox_Labor.Location = new System.Drawing.Point(30, 186);
-            this.groupBox_Labor.Name = "groupBox_Labor";
-            this.groupBox_Labor.Size = new System.Drawing.Size(202, 92);
-            this.groupBox_Labor.TabIndex = 18;
-            this.groupBox_Labor.TabStop = false;
-            this.groupBox_Labor.Text = "Labor";
+            this.groupBox_darkElixierBohrer.Controls.Add(this.darkElixierBohrer3_lvl);
+            this.groupBox_darkElixierBohrer.Controls.Add(this.darkElixierBohrer2_lvl);
+            this.groupBox_darkElixierBohrer.Controls.Add(this.darkElixierBohrer1_lvl);
+            this.groupBox_darkElixierBohrer.Location = new System.Drawing.Point(12, 142);
+            this.groupBox_darkElixierBohrer.Name = "groupBox_darkElixierBohrer";
+            this.groupBox_darkElixierBohrer.Size = new System.Drawing.Size(202, 126);
+            this.groupBox_darkElixierBohrer.TabIndex = 25;
+            this.groupBox_darkElixierBohrer.TabStop = false;
+            this.groupBox_darkElixierBohrer.Text = "dunkles Elixier Bohrer";
             // 
-            // numericUpDown1
+            // darkElixierBohrer3_lvl
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(34, 32);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            9,
+            this.darkElixierBohrer3_lvl.Location = new System.Drawing.Point(113, 31);
+            this.darkElixierBohrer3_lvl.Maximum = new decimal(new int[] {
+            6,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(48, 22);
-            this.numericUpDown1.TabIndex = 11;
+            this.darkElixierBohrer3_lvl.Name = "darkElixierBohrer3_lvl";
+            this.darkElixierBohrer3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.darkElixierBohrer3_lvl.TabIndex = 11;
             // 
-            // groupBox_Zauberfabrik
+            // darkElixierBohrer2_lvl
             // 
-            this.groupBox_Zauberfabrik.Controls.Add(this.numericUpDown2);
-            this.groupBox_Zauberfabrik.Location = new System.Drawing.Point(238, 186);
-            this.groupBox_Zauberfabrik.Name = "groupBox_Zauberfabrik";
-            this.groupBox_Zauberfabrik.Size = new System.Drawing.Size(202, 92);
-            this.groupBox_Zauberfabrik.TabIndex = 19;
-            this.groupBox_Zauberfabrik.TabStop = false;
-            this.groupBox_Zauberfabrik.Text = "Zauberspruchfabrik";
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(34, 32);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            5,
+            this.darkElixierBohrer2_lvl.Location = new System.Drawing.Point(41, 59);
+            this.darkElixierBohrer2_lvl.Maximum = new decimal(new int[] {
+            6,
             0,
             0,
             0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(48, 22);
-            this.numericUpDown2.TabIndex = 11;
+            this.darkElixierBohrer2_lvl.Name = "darkElixierBohrer2_lvl";
+            this.darkElixierBohrer2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.darkElixierBohrer2_lvl.TabIndex = 8;
             // 
-            // groupBox_DarkZauberFabrik
+            // darkElixierBohrer1_lvl
             // 
-            this.groupBox_DarkZauberFabrik.Controls.Add(this.numericUpDown3);
-            this.groupBox_DarkZauberFabrik.Location = new System.Drawing.Point(460, 186);
-            this.groupBox_DarkZauberFabrik.Name = "groupBox_DarkZauberFabrik";
-            this.groupBox_DarkZauberFabrik.Size = new System.Drawing.Size(202, 92);
-            this.groupBox_DarkZauberFabrik.TabIndex = 20;
-            this.groupBox_DarkZauberFabrik.TabStop = false;
-            this.groupBox_DarkZauberFabrik.Text = "dunkle Zauberspruchfabrik";
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(34, 32);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            4,
+            this.darkElixierBohrer1_lvl.Location = new System.Drawing.Point(41, 31);
+            this.darkElixierBohrer1_lvl.Maximum = new decimal(new int[] {
+            6,
             0,
             0,
             0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(48, 22);
-            this.numericUpDown3.TabIndex = 11;
+            this.darkElixierBohrer1_lvl.Name = "darkElixierBohrer1_lvl";
+            this.darkElixierBohrer1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.darkElixierBohrer1_lvl.TabIndex = 7;
             // 
-            // groupBox_Haupthaus
+            // groupBox_Elixierlager
             // 
-            this.groupBox_Haupthaus.Controls.Add(this.haupthaus1_lvl);
-            this.groupBox_Haupthaus.Location = new System.Drawing.Point(12, 27);
-            this.groupBox_Haupthaus.Name = "groupBox_Haupthaus";
-            this.groupBox_Haupthaus.Size = new System.Drawing.Size(202, 92);
-            this.groupBox_Haupthaus.TabIndex = 20;
-            this.groupBox_Haupthaus.TabStop = false;
-            this.groupBox_Haupthaus.Text = "Haupthaus";
+            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager4_lvl);
+            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager3_lvl);
+            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager2_lvl);
+            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager1_lvl);
+            this.groupBox_Elixierlager.Location = new System.Drawing.Point(456, 215);
+            this.groupBox_Elixierlager.Name = "groupBox_Elixierlager";
+            this.groupBox_Elixierlager.Size = new System.Drawing.Size(202, 168);
+            this.groupBox_Elixierlager.TabIndex = 24;
+            this.groupBox_Elixierlager.TabStop = false;
+            this.groupBox_Elixierlager.Text = "Elixierlager";
             // 
-            // haupthaus1_lvl
+            // Elixierlager4_lvl
             // 
-            this.haupthaus1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.haupthaus1_lvl.Maximum = new decimal(new int[] {
-            11,
-            0,
-            0,
-            0});
-            this.haupthaus1_lvl.Name = "haupthaus1_lvl";
-            this.haupthaus1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.haupthaus1_lvl.TabIndex = 11;
-            // 
-            // groupBox_Goldminen
-            // 
-            this.groupBox_Goldminen.Controls.Add(this.goldmine7_lvl);
-            this.groupBox_Goldminen.Controls.Add(this.goldmine6_lvl);
-            this.groupBox_Goldminen.Controls.Add(this.goldmine5_lvl);
-            this.groupBox_Goldminen.Controls.Add(this.goldmine4_lvl);
-            this.groupBox_Goldminen.Controls.Add(this.goldmine3_lvl);
-            this.groupBox_Goldminen.Controls.Add(this.goldmine2_lvl);
-            this.groupBox_Goldminen.Controls.Add(this.goldmine1_lvl);
-            this.groupBox_Goldminen.Location = new System.Drawing.Point(238, 27);
-            this.groupBox_Goldminen.Name = "groupBox_Goldminen";
-            this.groupBox_Goldminen.Size = new System.Drawing.Size(202, 168);
-            this.groupBox_Goldminen.TabIndex = 21;
-            this.groupBox_Goldminen.TabStop = false;
-            this.groupBox_Goldminen.Text = "Goldminen";
-            // 
-            // goldmine7_lvl
-            // 
-            this.goldmine7_lvl.Location = new System.Drawing.Point(113, 87);
-            this.goldmine7_lvl.Maximum = new decimal(new int[] {
+            this.Elixierlager4_lvl.Location = new System.Drawing.Point(113, 59);
+            this.Elixierlager4_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine7_lvl.Name = "goldmine7_lvl";
-            this.goldmine7_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine7_lvl.TabIndex = 13;
+            this.Elixierlager4_lvl.Name = "Elixierlager4_lvl";
+            this.Elixierlager4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.Elixierlager4_lvl.TabIndex = 12;
             // 
-            // goldmine6_lvl
+            // Elixierlager3_lvl
             // 
-            this.goldmine6_lvl.Location = new System.Drawing.Point(113, 59);
-            this.goldmine6_lvl.Maximum = new decimal(new int[] {
+            this.Elixierlager3_lvl.Location = new System.Drawing.Point(113, 31);
+            this.Elixierlager3_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine6_lvl.Name = "goldmine6_lvl";
-            this.goldmine6_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine6_lvl.TabIndex = 12;
+            this.Elixierlager3_lvl.Name = "Elixierlager3_lvl";
+            this.Elixierlager3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.Elixierlager3_lvl.TabIndex = 11;
             // 
-            // goldmine5_lvl
+            // Elixierlager2_lvl
             // 
-            this.goldmine5_lvl.Location = new System.Drawing.Point(113, 31);
-            this.goldmine5_lvl.Maximum = new decimal(new int[] {
+            this.Elixierlager2_lvl.Location = new System.Drawing.Point(41, 59);
+            this.Elixierlager2_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine5_lvl.Name = "goldmine5_lvl";
-            this.goldmine5_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine5_lvl.TabIndex = 11;
+            this.Elixierlager2_lvl.Name = "Elixierlager2_lvl";
+            this.Elixierlager2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.Elixierlager2_lvl.TabIndex = 8;
             // 
-            // goldmine4_lvl
+            // Elixierlager1_lvl
             // 
-            this.goldmine4_lvl.Location = new System.Drawing.Point(41, 115);
-            this.goldmine4_lvl.Maximum = new decimal(new int[] {
+            this.Elixierlager1_lvl.Location = new System.Drawing.Point(41, 31);
+            this.Elixierlager1_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine4_lvl.Name = "goldmine4_lvl";
-            this.goldmine4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine4_lvl.TabIndex = 10;
+            this.Elixierlager1_lvl.Name = "Elixierlager1_lvl";
+            this.Elixierlager1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.Elixierlager1_lvl.TabIndex = 7;
             // 
-            // goldmine3_lvl
+            // groupBox_goldlager
             // 
-            this.goldmine3_lvl.Location = new System.Drawing.Point(41, 87);
-            this.goldmine3_lvl.Maximum = new decimal(new int[] {
+            this.groupBox_goldlager.Controls.Add(this.goldlager4_lvl);
+            this.groupBox_goldlager.Controls.Add(this.goldlager3_lvl);
+            this.groupBox_goldlager.Controls.Add(this.goldlager2_lvl);
+            this.groupBox_goldlager.Controls.Add(this.goldlager1_lvl);
+            this.groupBox_goldlager.Location = new System.Drawing.Point(238, 215);
+            this.groupBox_goldlager.Name = "groupBox_goldlager";
+            this.groupBox_goldlager.Size = new System.Drawing.Size(202, 168);
+            this.groupBox_goldlager.TabIndex = 23;
+            this.groupBox_goldlager.TabStop = false;
+            this.groupBox_goldlager.Text = "Goldlager";
+            // 
+            // goldlager4_lvl
+            // 
+            this.goldlager4_lvl.Location = new System.Drawing.Point(113, 59);
+            this.goldlager4_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine3_lvl.Name = "goldmine3_lvl";
-            this.goldmine3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine3_lvl.TabIndex = 9;
+            this.goldlager4_lvl.Name = "goldlager4_lvl";
+            this.goldlager4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldlager4_lvl.TabIndex = 12;
             // 
-            // goldmine2_lvl
+            // goldlager3_lvl
             // 
-            this.goldmine2_lvl.Location = new System.Drawing.Point(41, 59);
-            this.goldmine2_lvl.Maximum = new decimal(new int[] {
+            this.goldlager3_lvl.Location = new System.Drawing.Point(113, 31);
+            this.goldlager3_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine2_lvl.Name = "goldmine2_lvl";
-            this.goldmine2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine2_lvl.TabIndex = 8;
+            this.goldlager3_lvl.Name = "goldlager3_lvl";
+            this.goldlager3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldlager3_lvl.TabIndex = 11;
             // 
-            // goldmine1_lvl
+            // goldlager2_lvl
             // 
-            this.goldmine1_lvl.Location = new System.Drawing.Point(41, 31);
-            this.goldmine1_lvl.Maximum = new decimal(new int[] {
+            this.goldlager2_lvl.Location = new System.Drawing.Point(41, 59);
+            this.goldlager2_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldmine1_lvl.Name = "goldmine1_lvl";
-            this.goldmine1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldmine1_lvl.TabIndex = 7;
+            this.goldlager2_lvl.Name = "goldlager2_lvl";
+            this.goldlager2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldlager2_lvl.TabIndex = 8;
+            // 
+            // goldlager1_lvl
+            // 
+            this.goldlager1_lvl.Location = new System.Drawing.Point(41, 31);
+            this.goldlager1_lvl.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.goldlager1_lvl.Name = "goldlager1_lvl";
+            this.goldlager1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldlager1_lvl.TabIndex = 7;
             // 
             // groupBox_Elixiersammler
             // 
@@ -2542,219 +2499,262 @@
             this.elixiersammler1_lvl.Size = new System.Drawing.Size(48, 22);
             this.elixiersammler1_lvl.TabIndex = 7;
             // 
-            // groupBox_goldlager
+            // groupBox_Goldminen
             // 
-            this.groupBox_goldlager.Controls.Add(this.goldlager4_lvl);
-            this.groupBox_goldlager.Controls.Add(this.goldlager3_lvl);
-            this.groupBox_goldlager.Controls.Add(this.goldlager2_lvl);
-            this.groupBox_goldlager.Controls.Add(this.goldlager1_lvl);
-            this.groupBox_goldlager.Location = new System.Drawing.Point(238, 215);
-            this.groupBox_goldlager.Name = "groupBox_goldlager";
-            this.groupBox_goldlager.Size = new System.Drawing.Size(202, 168);
-            this.groupBox_goldlager.TabIndex = 23;
-            this.groupBox_goldlager.TabStop = false;
-            this.groupBox_goldlager.Text = "Goldlager";
+            this.groupBox_Goldminen.Controls.Add(this.goldmine7_lvl);
+            this.groupBox_Goldminen.Controls.Add(this.goldmine6_lvl);
+            this.groupBox_Goldminen.Controls.Add(this.goldmine5_lvl);
+            this.groupBox_Goldminen.Controls.Add(this.goldmine4_lvl);
+            this.groupBox_Goldminen.Controls.Add(this.goldmine3_lvl);
+            this.groupBox_Goldminen.Controls.Add(this.goldmine2_lvl);
+            this.groupBox_Goldminen.Controls.Add(this.goldmine1_lvl);
+            this.groupBox_Goldminen.Location = new System.Drawing.Point(238, 27);
+            this.groupBox_Goldminen.Name = "groupBox_Goldminen";
+            this.groupBox_Goldminen.Size = new System.Drawing.Size(202, 168);
+            this.groupBox_Goldminen.TabIndex = 21;
+            this.groupBox_Goldminen.TabStop = false;
+            this.groupBox_Goldminen.Text = "Goldminen";
             // 
-            // goldlager4_lvl
+            // goldmine7_lvl
             // 
-            this.goldlager4_lvl.Location = new System.Drawing.Point(113, 59);
-            this.goldlager4_lvl.Maximum = new decimal(new int[] {
+            this.goldmine7_lvl.Location = new System.Drawing.Point(113, 87);
+            this.goldmine7_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldlager4_lvl.Name = "goldlager4_lvl";
-            this.goldlager4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldlager4_lvl.TabIndex = 12;
+            this.goldmine7_lvl.Name = "goldmine7_lvl";
+            this.goldmine7_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine7_lvl.TabIndex = 13;
             // 
-            // goldlager3_lvl
+            // goldmine6_lvl
             // 
-            this.goldlager3_lvl.Location = new System.Drawing.Point(113, 31);
-            this.goldlager3_lvl.Maximum = new decimal(new int[] {
+            this.goldmine6_lvl.Location = new System.Drawing.Point(113, 59);
+            this.goldmine6_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldlager3_lvl.Name = "goldlager3_lvl";
-            this.goldlager3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldlager3_lvl.TabIndex = 11;
+            this.goldmine6_lvl.Name = "goldmine6_lvl";
+            this.goldmine6_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine6_lvl.TabIndex = 12;
             // 
-            // goldlager2_lvl
+            // goldmine5_lvl
             // 
-            this.goldlager2_lvl.Location = new System.Drawing.Point(41, 59);
-            this.goldlager2_lvl.Maximum = new decimal(new int[] {
+            this.goldmine5_lvl.Location = new System.Drawing.Point(113, 31);
+            this.goldmine5_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldlager2_lvl.Name = "goldlager2_lvl";
-            this.goldlager2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldlager2_lvl.TabIndex = 8;
+            this.goldmine5_lvl.Name = "goldmine5_lvl";
+            this.goldmine5_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine5_lvl.TabIndex = 11;
             // 
-            // goldlager1_lvl
+            // goldmine4_lvl
             // 
-            this.goldlager1_lvl.Location = new System.Drawing.Point(41, 31);
-            this.goldlager1_lvl.Maximum = new decimal(new int[] {
+            this.goldmine4_lvl.Location = new System.Drawing.Point(41, 115);
+            this.goldmine4_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.goldlager1_lvl.Name = "goldlager1_lvl";
-            this.goldlager1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.goldlager1_lvl.TabIndex = 7;
+            this.goldmine4_lvl.Name = "goldmine4_lvl";
+            this.goldmine4_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine4_lvl.TabIndex = 10;
             // 
-            // groupBox_Elixierlager
+            // goldmine3_lvl
             // 
-            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager4_lvl);
-            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager3_lvl);
-            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager2_lvl);
-            this.groupBox_Elixierlager.Controls.Add(this.Elixierlager1_lvl);
-            this.groupBox_Elixierlager.Location = new System.Drawing.Point(456, 215);
-            this.groupBox_Elixierlager.Name = "groupBox_Elixierlager";
-            this.groupBox_Elixierlager.Size = new System.Drawing.Size(202, 168);
-            this.groupBox_Elixierlager.TabIndex = 24;
-            this.groupBox_Elixierlager.TabStop = false;
-            this.groupBox_Elixierlager.Text = "Elixierlager";
-            // 
-            // Elixierlager4_lvl
-            // 
-            this.Elixierlager4_lvl.Location = new System.Drawing.Point(113, 59);
-            this.Elixierlager4_lvl.Maximum = new decimal(new int[] {
+            this.goldmine3_lvl.Location = new System.Drawing.Point(41, 87);
+            this.goldmine3_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Elixierlager4_lvl.Name = "Elixierlager4_lvl";
-            this.Elixierlager4_lvl.Size = new System.Drawing.Size(48, 22);
-            this.Elixierlager4_lvl.TabIndex = 12;
+            this.goldmine3_lvl.Name = "goldmine3_lvl";
+            this.goldmine3_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine3_lvl.TabIndex = 9;
             // 
-            // Elixierlager3_lvl
+            // goldmine2_lvl
             // 
-            this.Elixierlager3_lvl.Location = new System.Drawing.Point(113, 31);
-            this.Elixierlager3_lvl.Maximum = new decimal(new int[] {
+            this.goldmine2_lvl.Location = new System.Drawing.Point(41, 59);
+            this.goldmine2_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Elixierlager3_lvl.Name = "Elixierlager3_lvl";
-            this.Elixierlager3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.Elixierlager3_lvl.TabIndex = 11;
+            this.goldmine2_lvl.Name = "goldmine2_lvl";
+            this.goldmine2_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine2_lvl.TabIndex = 8;
             // 
-            // Elixierlager2_lvl
+            // goldmine1_lvl
             // 
-            this.Elixierlager2_lvl.Location = new System.Drawing.Point(41, 59);
-            this.Elixierlager2_lvl.Maximum = new decimal(new int[] {
+            this.goldmine1_lvl.Location = new System.Drawing.Point(41, 31);
+            this.goldmine1_lvl.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Elixierlager2_lvl.Name = "Elixierlager2_lvl";
-            this.Elixierlager2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.Elixierlager2_lvl.TabIndex = 8;
+            this.goldmine1_lvl.Name = "goldmine1_lvl";
+            this.goldmine1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.goldmine1_lvl.TabIndex = 7;
             // 
-            // Elixierlager1_lvl
+            // groupBox_Haupthaus
             // 
-            this.Elixierlager1_lvl.Location = new System.Drawing.Point(41, 31);
-            this.Elixierlager1_lvl.Maximum = new decimal(new int[] {
-            12,
+            this.groupBox_Haupthaus.Controls.Add(this.haupthaus1_lvl);
+            this.groupBox_Haupthaus.Location = new System.Drawing.Point(12, 27);
+            this.groupBox_Haupthaus.Name = "groupBox_Haupthaus";
+            this.groupBox_Haupthaus.Size = new System.Drawing.Size(202, 92);
+            this.groupBox_Haupthaus.TabIndex = 20;
+            this.groupBox_Haupthaus.TabStop = false;
+            this.groupBox_Haupthaus.Text = "Haupthaus";
+            // 
+            // haupthaus1_lvl
+            // 
+            this.haupthaus1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.haupthaus1_lvl.Maximum = new decimal(new int[] {
+            11,
             0,
             0,
             0});
-            this.Elixierlager1_lvl.Name = "Elixierlager1_lvl";
-            this.Elixierlager1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.Elixierlager1_lvl.TabIndex = 7;
+            this.haupthaus1_lvl.Name = "haupthaus1_lvl";
+            this.haupthaus1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.haupthaus1_lvl.TabIndex = 11;
             // 
-            // groupBox_darkElixierBohrer
+            // tabPage_buildings
             // 
-            this.groupBox_darkElixierBohrer.Controls.Add(this.darkElixierBohrer3_lvl);
-            this.groupBox_darkElixierBohrer.Controls.Add(this.darkElixierBohrer2_lvl);
-            this.groupBox_darkElixierBohrer.Controls.Add(this.darkElixierBohrer1_lvl);
-            this.groupBox_darkElixierBohrer.Location = new System.Drawing.Point(12, 142);
-            this.groupBox_darkElixierBohrer.Name = "groupBox_darkElixierBohrer";
-            this.groupBox_darkElixierBohrer.Size = new System.Drawing.Size(202, 126);
-            this.groupBox_darkElixierBohrer.TabIndex = 25;
-            this.groupBox_darkElixierBohrer.TabStop = false;
-            this.groupBox_darkElixierBohrer.Text = "dunkles Elixier Bohrer";
+            this.tabPage_buildings.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_buildings.Name = "tabPage_buildings";
+            this.tabPage_buildings.Size = new System.Drawing.Size(859, 479);
+            this.tabPage_buildings.TabIndex = 6;
+            this.tabPage_buildings.Text = "sontige Gebäude";
+            this.tabPage_buildings.UseVisualStyleBackColor = true;
             // 
-            // darkElixierBohrer3_lvl
+            // tabPage_Ergebnis
             // 
-            this.darkElixierBohrer3_lvl.Location = new System.Drawing.Point(113, 31);
-            this.darkElixierBohrer3_lvl.Maximum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
-            this.darkElixierBohrer3_lvl.Name = "darkElixierBohrer3_lvl";
-            this.darkElixierBohrer3_lvl.Size = new System.Drawing.Size(48, 22);
-            this.darkElixierBohrer3_lvl.TabIndex = 11;
+            this.tabPage_Ergebnis.Controls.Add(this.groupBox3);
+            this.tabPage_Ergebnis.Controls.Add(this.groupBox2);
+            this.tabPage_Ergebnis.Controls.Add(this.groupBox1);
+            this.tabPage_Ergebnis.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_Ergebnis.Name = "tabPage_Ergebnis";
+            this.tabPage_Ergebnis.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_Ergebnis.Size = new System.Drawing.Size(859, 479);
+            this.tabPage_Ergebnis.TabIndex = 2;
+            this.tabPage_Ergebnis.Text = "Ergebnis";
+            this.tabPage_Ergebnis.UseVisualStyleBackColor = true;
             // 
-            // darkElixierBohrer2_lvl
+            // groupBox3
             // 
-            this.darkElixierBohrer2_lvl.Location = new System.Drawing.Point(41, 59);
-            this.darkElixierBohrer2_lvl.Maximum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
-            this.darkElixierBohrer2_lvl.Name = "darkElixierBohrer2_lvl";
-            this.darkElixierBohrer2_lvl.Size = new System.Drawing.Size(48, 22);
-            this.darkElixierBohrer2_lvl.TabIndex = 8;
+            this.groupBox3.Location = new System.Drawing.Point(12, 7);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(839, 328);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "graphische Darstellung";
             // 
-            // darkElixierBohrer1_lvl
+            // groupBox2
             // 
-            this.darkElixierBohrer1_lvl.Location = new System.Drawing.Point(41, 31);
-            this.darkElixierBohrer1_lvl.Maximum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
-            this.darkElixierBohrer1_lvl.Name = "darkElixierBohrer1_lvl";
-            this.darkElixierBohrer1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.darkElixierBohrer1_lvl.TabIndex = 7;
+            this.groupBox2.Controls.Add(this.label19);
+            this.groupBox2.Controls.Add(this.label18);
+            this.groupBox2.Location = new System.Drawing.Point(423, 341);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(330, 126);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Zeit";
             // 
-            // groupBox_darkElixierLager
+            // label19
             // 
-            this.groupBox_darkElixierLager.Controls.Add(this.darkElixierLager1_lvl);
-            this.groupBox_darkElixierLager.Location = new System.Drawing.Point(12, 291);
-            this.groupBox_darkElixierLager.Name = "groupBox_darkElixierLager";
-            this.groupBox_darkElixierLager.Size = new System.Drawing.Size(202, 92);
-            this.groupBox_darkElixierLager.TabIndex = 26;
-            this.groupBox_darkElixierLager.TabStop = false;
-            this.groupBox_darkElixierLager.Text = "dunkles Elixierlager";
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 70);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(188, 17);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Dauer / Anzahl Bauarbeiter: ";
             // 
-            // darkElixierLager1_lvl
+            // label18
             // 
-            this.darkElixierLager1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.darkElixierLager1_lvl.Maximum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
-            this.darkElixierLager1_lvl.Name = "darkElixierLager1_lvl";
-            this.darkElixierLager1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.darkElixierLager1_lvl.TabIndex = 11;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 28);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(171, 17);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "summierte Gesamtdauer: ";
             // 
-            // groupBox_ClanFestung
+            // groupBox1
             // 
-            this.groupBox_ClanFestung.Controls.Add(this.Clanfestung1_lvl);
-            this.groupBox_ClanFestung.Location = new System.Drawing.Point(664, 27);
-            this.groupBox_ClanFestung.Name = "groupBox_ClanFestung";
-            this.groupBox_ClanFestung.Size = new System.Drawing.Size(135, 92);
-            this.groupBox_ClanFestung.TabIndex = 27;
-            this.groupBox_ClanFestung.TabStop = false;
-            this.groupBox_ClanFestung.Text = "Clanfestung";
+            this.groupBox1.Controls.Add(this.label17);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Location = new System.Drawing.Point(12, 335);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(390, 132);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Gesamtkosten";
             // 
-            // Clanfestung1_lvl
+            // label17
             // 
-            this.Clanfestung1_lvl.Location = new System.Drawing.Point(34, 32);
-            this.Clanfestung1_lvl.Maximum = new decimal(new int[] {
-            7,
-            0,
-            0,
-            0});
-            this.Clanfestung1_lvl.Name = "Clanfestung1_lvl";
-            this.Clanfestung1_lvl.Size = new System.Drawing.Size(48, 22);
-            this.Clanfestung1_lvl.TabIndex = 11;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(9, 109);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(199, 17);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "gesamte dunkle Elixierkosten: ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 28);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(153, 17);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "gesamte Elixierkosten: ";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(6, 70);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(146, 17);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "gesamte Goldkosten: ";
+            // 
+            // label_uid
+            // 
+            this.label_uid.AutoSize = true;
+            this.label_uid.Location = new System.Drawing.Point(808, 510);
+            this.label_uid.Name = "label_uid";
+            this.label_uid.Size = new System.Drawing.Size(48, 17);
+            this.label_uid.TabIndex = 17;
+            this.label_uid.Text = "00001";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(735, 510);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(67, 17);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "USERID: ";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(12, 510);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(107, 17);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "Gesamtkosten: ";
+            // 
+            // label_kosten_gesamt
+            // 
+            this.label_kosten_gesamt.AutoSize = true;
+            this.label_kosten_gesamt.Location = new System.Drawing.Point(123, 510);
+            this.label_kosten_gesamt.Name = "label_kosten_gesamt";
+            this.label_kosten_gesamt.Size = new System.Drawing.Size(16, 17);
+            this.label_kosten_gesamt.TabIndex = 19;
+            this.label_kosten_gesamt.Text = "0";
             // 
             // Form1
             // 
@@ -2839,28 +2839,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.kanon3_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kanon2_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kanon1_lvl)).EndInit();
-            this.tabPage_Helden.ResumeLayout(false);
-            this.tabPage_Ergebnis.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bk_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aq_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gw_lvl)).EndInit();
-            this.tabPage_Armee.ResumeLayout(false);
             this.tabPage_Fallen.ResumeLayout(false);
-            this.tabPage_Produktion.ResumeLayout(false);
-            this.groupBox_Bomben.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bombe6_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe5_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe3_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bombe1_lvl)).EndInit();
+            this.groupBox_Skelettfallen.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.skelettfalle1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.skelettfalle2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.skelettfalle3_lvl)).EndInit();
+            this.groupBox_TargetLuftBomben.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe5_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe3_lvl)).EndInit();
+            this.groupBox_Luftbomben.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe5_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luftbombe3_lvl)).EndInit();
+            this.groupBox_BigBombs.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb5_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bigbomb3_lvl)).EndInit();
             this.groupBox_Sprungfedern.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder6_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder1_lvl)).EndInit();
@@ -2868,57 +2869,59 @@
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder2_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder4_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sprungfeder3_lvl)).EndInit();
-            this.groupBox_BigBombs.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb1_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb5_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bigbomb3_lvl)).EndInit();
-            this.groupBox_Luftbomben.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe1_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe5_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luftbombe3_lvl)).EndInit();
-            this.groupBox_TargetLuftBomben.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe1_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe5_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.targetluftbombe3_lvl)).EndInit();
-            this.groupBox_Skelettfallen.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.skellettfalle1_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skellettfalle2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skellettfalle3_lvl)).EndInit();
-            this.groupBox_Armeelager.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager1_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager3_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.armeelager4_lvl)).EndInit();
+            this.groupBox_Bomben.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bombe6_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe5_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bombe3_lvl)).EndInit();
+            this.tabPage_Armee.ResumeLayout(false);
+            this.groupBox_DarkZauberFabrik.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            this.groupBox_Zauberfabrik.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.groupBox_Labor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.groupBox_DunkleBaracken.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke2_lvl)).EndInit();
             this.groupBox_Baracken.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.baracke4_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baracke1_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baracke2_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baracke3_lvl)).EndInit();
-            this.groupBox_DunkleBaracken.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke1_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke2_lvl)).EndInit();
-            this.groupBox_Labor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.groupBox_Zauberfabrik.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            this.groupBox_DarkZauberFabrik.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            this.groupBox_Haupthaus.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.haupthaus1_lvl)).EndInit();
-            this.groupBox_Goldminen.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine7_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine6_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine5_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine3_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldmine1_lvl)).EndInit();
+            this.groupBox_Armeelager.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager1_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.armeelager3_lvl)).EndInit();
+            this.tabPage_Helden.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gw_lvl)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.aq_lvl)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bk_lvl)).EndInit();
+            this.tabPage_Produktion.ResumeLayout(false);
+            this.groupBox_ClanFestung.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).EndInit();
+            this.groupBox_darkElixierLager.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierLager1_lvl)).EndInit();
+            this.groupBox_darkElixierBohrer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer3_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer1_lvl)).EndInit();
+            this.groupBox_Elixierlager.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager3_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager1_lvl)).EndInit();
+            this.groupBox_goldlager.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager3_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldlager1_lvl)).EndInit();
             this.groupBox_Elixiersammler.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler7_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler6_lvl)).EndInit();
@@ -2927,24 +2930,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler3_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler2_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elixiersammler1_lvl)).EndInit();
-            this.groupBox_goldlager.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager3_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldlager1_lvl)).EndInit();
-            this.groupBox_Elixierlager.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager4_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager3_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Elixierlager1_lvl)).EndInit();
-            this.groupBox_darkElixierBohrer.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer3_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer2_lvl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierBohrer1_lvl)).EndInit();
-            this.groupBox_darkElixierLager.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.darkElixierLager1_lvl)).EndInit();
-            this.groupBox_ClanFestung.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).EndInit();
+            this.groupBox_Goldminen.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine7_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine6_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine5_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine4_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine3_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine2_lvl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldmine1_lvl)).EndInit();
+            this.groupBox_Haupthaus.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.haupthaus1_lvl)).EndInit();
+            this.tabPage_Ergebnis.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3091,9 +3091,9 @@
         private System.Windows.Forms.NumericUpDown targetluftbombe4_lvl;
         private System.Windows.Forms.NumericUpDown targetluftbombe3_lvl;
         private System.Windows.Forms.GroupBox groupBox_Skelettfallen;
-        private System.Windows.Forms.NumericUpDown skellettfalle1_lvl;
-        private System.Windows.Forms.NumericUpDown skellettfalle2_lvl;
-        private System.Windows.Forms.NumericUpDown skellettfalle3_lvl;
+        private System.Windows.Forms.NumericUpDown skelettfalle1_lvl;
+        private System.Windows.Forms.NumericUpDown skelettfalle2_lvl;
+        private System.Windows.Forms.NumericUpDown skelettfalle3_lvl;
         private System.Windows.Forms.GroupBox groupBox_Armeelager;
         private System.Windows.Forms.NumericUpDown armeelager4_lvl;
         private System.Windows.Forms.NumericUpDown armeelager1_lvl;
