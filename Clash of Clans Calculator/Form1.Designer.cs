@@ -148,12 +148,12 @@
             this.bombe4_lvl = new System.Windows.Forms.NumericUpDown();
             this.bombe3_lvl = new System.Windows.Forms.NumericUpDown();
             this.tabPage_Armee = new System.Windows.Forms.TabPage();
-            this.groupBox_DarkZauberFabrik = new System.Windows.Forms.GroupBox();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_DarkZauberfabrik = new System.Windows.Forms.GroupBox();
+            this.darkzauberfabrik1_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_Zauberfabrik = new System.Windows.Forms.GroupBox();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.zauberfabrik1_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_Labor = new System.Windows.Forms.GroupBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.labor1_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_DunkleBaracken = new System.Windows.Forms.GroupBox();
             this.dunklebaracke1_lvl = new System.Windows.Forms.NumericUpDown();
             this.dunklebaracke2_lvl = new System.Windows.Forms.NumericUpDown();
@@ -168,12 +168,12 @@
             this.armeelager2_lvl = new System.Windows.Forms.NumericUpDown();
             this.armeelager3_lvl = new System.Windows.Forms.NumericUpDown();
             this.tabPage_Helden = new System.Windows.Forms.TabPage();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.gw_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.aq_lvl = new System.Windows.Forms.NumericUpDown();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.bk_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_gw = new System.Windows.Forms.GroupBox();
+            this.gw1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_bogk = new System.Windows.Forms.GroupBox();
+            this.aq1_lvl = new System.Windows.Forms.NumericUpDown();
+            this.groupBox_bk = new System.Windows.Forms.GroupBox();
+            this.bk1_lvl = new System.Windows.Forms.NumericUpDown();
             this.tabPage_Produktion = new System.Windows.Forms.TabPage();
             this.groupBox_ClanFestung = new System.Windows.Forms.GroupBox();
             this.Clanfestung1_lvl = new System.Windows.Forms.NumericUpDown();
@@ -332,12 +332,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.bombe4_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bombe3_lvl)).BeginInit();
             this.tabPage_Armee.SuspendLayout();
-            this.groupBox_DarkZauberFabrik.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            this.groupBox_DarkZauberfabrik.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.darkzauberfabrik1_lvl)).BeginInit();
             this.groupBox_Zauberfabrik.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zauberfabrik1_lvl)).BeginInit();
             this.groupBox_Labor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.labor1_lvl)).BeginInit();
             this.groupBox_DunkleBaracken.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke1_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke2_lvl)).BeginInit();
@@ -352,12 +352,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.armeelager2_lvl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.armeelager3_lvl)).BeginInit();
             this.tabPage_Helden.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gw_lvl)).BeginInit();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.aq_lvl)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bk_lvl)).BeginInit();
+            this.groupBox_gw.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gw1_lvl)).BeginInit();
+            this.groupBox_bogk.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.aq1_lvl)).BeginInit();
+            this.groupBox_bk.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bk1_lvl)).BeginInit();
             this.tabPage_Produktion.SuspendLayout();
             this.groupBox_ClanFestung.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).BeginInit();
@@ -1852,7 +1852,7 @@
             // 
             // tabPage_Armee
             // 
-            this.tabPage_Armee.Controls.Add(this.groupBox_DarkZauberFabrik);
+            this.tabPage_Armee.Controls.Add(this.groupBox_DarkZauberfabrik);
             this.tabPage_Armee.Controls.Add(this.groupBox_Zauberfabrik);
             this.tabPage_Armee.Controls.Add(this.groupBox_Labor);
             this.tabPage_Armee.Controls.Add(this.groupBox_DunkleBaracken);
@@ -1866,31 +1866,31 @@
             this.tabPage_Armee.Text = "Armee";
             this.tabPage_Armee.UseVisualStyleBackColor = true;
             // 
-            // groupBox_DarkZauberFabrik
+            // groupBox_DarkZauberfabrik
             // 
-            this.groupBox_DarkZauberFabrik.Controls.Add(this.numericUpDown3);
-            this.groupBox_DarkZauberFabrik.Location = new System.Drawing.Point(460, 186);
-            this.groupBox_DarkZauberFabrik.Name = "groupBox_DarkZauberFabrik";
-            this.groupBox_DarkZauberFabrik.Size = new System.Drawing.Size(202, 92);
-            this.groupBox_DarkZauberFabrik.TabIndex = 20;
-            this.groupBox_DarkZauberFabrik.TabStop = false;
-            this.groupBox_DarkZauberFabrik.Text = "dunkle Zauberspruchfabrik";
+            this.groupBox_DarkZauberfabrik.Controls.Add(this.darkzauberfabrik1_lvl);
+            this.groupBox_DarkZauberfabrik.Location = new System.Drawing.Point(460, 186);
+            this.groupBox_DarkZauberfabrik.Name = "groupBox_DarkZauberfabrik";
+            this.groupBox_DarkZauberfabrik.Size = new System.Drawing.Size(202, 92);
+            this.groupBox_DarkZauberfabrik.TabIndex = 20;
+            this.groupBox_DarkZauberfabrik.TabStop = false;
+            this.groupBox_DarkZauberfabrik.Text = "dunkle Zauberspruchfabrik";
             // 
-            // numericUpDown3
+            // darkzauberfabrik1_lvl
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(34, 32);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
+            this.darkzauberfabrik1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.darkzauberfabrik1_lvl.Maximum = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(48, 22);
-            this.numericUpDown3.TabIndex = 11;
+            this.darkzauberfabrik1_lvl.Name = "darkzauberfabrik1_lvl";
+            this.darkzauberfabrik1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.darkzauberfabrik1_lvl.TabIndex = 11;
             // 
             // groupBox_Zauberfabrik
             // 
-            this.groupBox_Zauberfabrik.Controls.Add(this.numericUpDown2);
+            this.groupBox_Zauberfabrik.Controls.Add(this.zauberfabrik1_lvl);
             this.groupBox_Zauberfabrik.Location = new System.Drawing.Point(238, 186);
             this.groupBox_Zauberfabrik.Name = "groupBox_Zauberfabrik";
             this.groupBox_Zauberfabrik.Size = new System.Drawing.Size(202, 92);
@@ -1898,21 +1898,21 @@
             this.groupBox_Zauberfabrik.TabStop = false;
             this.groupBox_Zauberfabrik.Text = "Zauberspruchfabrik";
             // 
-            // numericUpDown2
+            // zauberfabrik1_lvl
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(34, 32);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
+            this.zauberfabrik1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.zauberfabrik1_lvl.Maximum = new decimal(new int[] {
             5,
             0,
             0,
             0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(48, 22);
-            this.numericUpDown2.TabIndex = 11;
+            this.zauberfabrik1_lvl.Name = "zauberfabrik1_lvl";
+            this.zauberfabrik1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.zauberfabrik1_lvl.TabIndex = 11;
             // 
             // groupBox_Labor
             // 
-            this.groupBox_Labor.Controls.Add(this.numericUpDown1);
+            this.groupBox_Labor.Controls.Add(this.labor1_lvl);
             this.groupBox_Labor.Location = new System.Drawing.Point(30, 186);
             this.groupBox_Labor.Name = "groupBox_Labor";
             this.groupBox_Labor.Size = new System.Drawing.Size(202, 92);
@@ -1920,17 +1920,17 @@
             this.groupBox_Labor.TabStop = false;
             this.groupBox_Labor.Text = "Labor";
             // 
-            // numericUpDown1
+            // labor1_lvl
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(34, 32);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.labor1_lvl.Location = new System.Drawing.Point(34, 32);
+            this.labor1_lvl.Maximum = new decimal(new int[] {
             9,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(48, 22);
-            this.numericUpDown1.TabIndex = 11;
+            this.labor1_lvl.Name = "labor1_lvl";
+            this.labor1_lvl.Size = new System.Drawing.Size(48, 22);
+            this.labor1_lvl.TabIndex = 11;
             // 
             // groupBox_DunkleBaracken
             // 
@@ -2091,9 +2091,9 @@
             // 
             // tabPage_Helden
             // 
-            this.tabPage_Helden.Controls.Add(this.groupBox6);
-            this.tabPage_Helden.Controls.Add(this.groupBox5);
-            this.tabPage_Helden.Controls.Add(this.groupBox4);
+            this.tabPage_Helden.Controls.Add(this.groupBox_gw);
+            this.tabPage_Helden.Controls.Add(this.groupBox_bogk);
+            this.tabPage_Helden.Controls.Add(this.groupBox_bk);
             this.tabPage_Helden.Location = new System.Drawing.Point(4, 25);
             this.tabPage_Helden.Name = "tabPage_Helden";
             this.tabPage_Helden.Padding = new System.Windows.Forms.Padding(3);
@@ -2102,71 +2102,71 @@
             this.tabPage_Helden.Text = "Helden";
             this.tabPage_Helden.UseVisualStyleBackColor = true;
             // 
-            // groupBox6
+            // groupBox_gw
             // 
-            this.groupBox6.Controls.Add(this.gw_lvl);
-            this.groupBox6.Location = new System.Drawing.Point(565, 203);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(200, 100);
-            this.groupBox6.TabIndex = 2;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "großer Wächter";
+            this.groupBox_gw.Controls.Add(this.gw1_lvl);
+            this.groupBox_gw.Location = new System.Drawing.Point(565, 203);
+            this.groupBox_gw.Name = "groupBox_gw";
+            this.groupBox_gw.Size = new System.Drawing.Size(200, 100);
+            this.groupBox_gw.TabIndex = 2;
+            this.groupBox_gw.TabStop = false;
+            this.groupBox_gw.Text = "großer Wächter";
             // 
-            // gw_lvl
+            // gw1_lvl
             // 
-            this.gw_lvl.Location = new System.Drawing.Point(71, 39);
-            this.gw_lvl.Maximum = new decimal(new int[] {
+            this.gw1_lvl.Location = new System.Drawing.Point(71, 39);
+            this.gw1_lvl.Maximum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.gw_lvl.Name = "gw_lvl";
-            this.gw_lvl.Size = new System.Drawing.Size(58, 22);
-            this.gw_lvl.TabIndex = 1;
+            this.gw1_lvl.Name = "gw1_lvl";
+            this.gw1_lvl.Size = new System.Drawing.Size(58, 22);
+            this.gw1_lvl.TabIndex = 1;
             // 
-            // groupBox5
+            // groupBox_bogk
             // 
-            this.groupBox5.Controls.Add(this.aq_lvl);
-            this.groupBox5.Location = new System.Drawing.Point(329, 203);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(200, 100);
-            this.groupBox5.TabIndex = 1;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Bogenkönigin";
+            this.groupBox_bogk.Controls.Add(this.aq1_lvl);
+            this.groupBox_bogk.Location = new System.Drawing.Point(329, 203);
+            this.groupBox_bogk.Name = "groupBox_bogk";
+            this.groupBox_bogk.Size = new System.Drawing.Size(200, 100);
+            this.groupBox_bogk.TabIndex = 1;
+            this.groupBox_bogk.TabStop = false;
+            this.groupBox_bogk.Text = "Bogenkönigin";
             // 
-            // aq_lvl
+            // aq1_lvl
             // 
-            this.aq_lvl.Location = new System.Drawing.Point(66, 38);
-            this.aq_lvl.Maximum = new decimal(new int[] {
+            this.aq1_lvl.Location = new System.Drawing.Point(66, 38);
+            this.aq1_lvl.Maximum = new decimal(new int[] {
             45,
             0,
             0,
             0});
-            this.aq_lvl.Name = "aq_lvl";
-            this.aq_lvl.Size = new System.Drawing.Size(58, 22);
-            this.aq_lvl.TabIndex = 0;
+            this.aq1_lvl.Name = "aq1_lvl";
+            this.aq1_lvl.Size = new System.Drawing.Size(58, 22);
+            this.aq1_lvl.TabIndex = 0;
             // 
-            // groupBox4
+            // groupBox_bk
             // 
-            this.groupBox4.Controls.Add(this.bk_lvl);
-            this.groupBox4.Location = new System.Drawing.Point(82, 203);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(200, 100);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Barbarenkönig";
+            this.groupBox_bk.Controls.Add(this.bk1_lvl);
+            this.groupBox_bk.Location = new System.Drawing.Point(82, 203);
+            this.groupBox_bk.Name = "groupBox_bk";
+            this.groupBox_bk.Size = new System.Drawing.Size(200, 100);
+            this.groupBox_bk.TabIndex = 0;
+            this.groupBox_bk.TabStop = false;
+            this.groupBox_bk.Text = "Barbarenkönig";
             // 
-            // bk_lvl
+            // bk1_lvl
             // 
-            this.bk_lvl.Location = new System.Drawing.Point(73, 39);
-            this.bk_lvl.Maximum = new decimal(new int[] {
+            this.bk1_lvl.Location = new System.Drawing.Point(73, 39);
+            this.bk1_lvl.Maximum = new decimal(new int[] {
             45,
             0,
             0,
             0});
-            this.bk_lvl.Name = "bk_lvl";
-            this.bk_lvl.Size = new System.Drawing.Size(61, 22);
-            this.bk_lvl.TabIndex = 0;
+            this.bk1_lvl.Name = "bk1_lvl";
+            this.bk1_lvl.Size = new System.Drawing.Size(61, 22);
+            this.bk1_lvl.TabIndex = 0;
             // 
             // tabPage_Produktion
             // 
@@ -2877,12 +2877,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.bombe4_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bombe3_lvl)).EndInit();
             this.tabPage_Armee.ResumeLayout(false);
-            this.groupBox_DarkZauberFabrik.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            this.groupBox_DarkZauberfabrik.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.darkzauberfabrik1_lvl)).EndInit();
             this.groupBox_Zauberfabrik.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zauberfabrik1_lvl)).EndInit();
             this.groupBox_Labor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.labor1_lvl)).EndInit();
             this.groupBox_DunkleBaracken.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke1_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dunklebaracke2_lvl)).EndInit();
@@ -2897,12 +2897,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.armeelager2_lvl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.armeelager3_lvl)).EndInit();
             this.tabPage_Helden.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gw_lvl)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.aq_lvl)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bk_lvl)).EndInit();
+            this.groupBox_gw.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gw1_lvl)).EndInit();
+            this.groupBox_bogk.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.aq1_lvl)).EndInit();
+            this.groupBox_bk.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bk1_lvl)).EndInit();
             this.tabPage_Produktion.ResumeLayout(false);
             this.groupBox_ClanFestung.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).EndInit();
@@ -3040,12 +3040,12 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label_kosten_gesamt;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.NumericUpDown gw_lvl;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.NumericUpDown aq_lvl;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.NumericUpDown bk_lvl;
+        private System.Windows.Forms.GroupBox groupBox_gw;
+        private System.Windows.Forms.NumericUpDown gw1_lvl;
+        private System.Windows.Forms.GroupBox groupBox_bogk;
+        private System.Windows.Forms.NumericUpDown aq1_lvl;
+        private System.Windows.Forms.GroupBox groupBox_bk;
+        private System.Windows.Forms.NumericUpDown bk1_lvl;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label19;
@@ -3105,14 +3105,14 @@
         private System.Windows.Forms.NumericUpDown baracke2_lvl;
         private System.Windows.Forms.NumericUpDown baracke3_lvl;
         private System.Windows.Forms.GroupBox groupBox_Labor;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown labor1_lvl;
         private System.Windows.Forms.GroupBox groupBox_DunkleBaracken;
         private System.Windows.Forms.NumericUpDown dunklebaracke1_lvl;
         private System.Windows.Forms.NumericUpDown dunklebaracke2_lvl;
-        private System.Windows.Forms.GroupBox groupBox_DarkZauberFabrik;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.GroupBox groupBox_DarkZauberfabrik;
+        private System.Windows.Forms.NumericUpDown darkzauberfabrik1_lvl;
         private System.Windows.Forms.GroupBox groupBox_Zauberfabrik;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown zauberfabrik1_lvl;
         private System.Windows.Forms.GroupBox groupBox_Elixiersammler;
         private System.Windows.Forms.NumericUpDown elixiersammler7_lvl;
         private System.Windows.Forms.NumericUpDown elixiersammler6_lvl;

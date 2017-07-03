@@ -160,6 +160,40 @@ namespace Clash_of_Clans_Calculator
                 "UPDATE user_fallen_lv SET skelettfalle1_lv =" + skelettfalle1_lvl.Value +
                 ",skelettfalle2_lv=" + skelettfalle2_lvl.Value +
                 ",skelettfalle3_lv=" + skelettfalle3_lvl.Value, "WHERE u_id = " + label_uid.Text);
+            //armeelager1_lv
+            db.db_update(con_string,
+                "UPDATE user_armee_lv SET armeelager1_lv =" + armeelager1_lvl.Value +
+                ",armeelager2_lv=" + armeelager2_lvl.Value +
+                ",armeelager3_lv=" + armeelager3_lvl.Value +
+                ",armeelager4_lv=" + armeelager4_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //baracke1_lv
+            db.db_update(con_string,
+                "UPDATE user_armee_lv SET baracke1_lv =" + baracke1_lvl.Value +
+                ",baracke2_lv=" + baracke2_lvl.Value +
+                ",baracke3_lv=" + baracke3_lvl.Value +
+                ",baracke4_lv=" + baracke4_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //dunklebaracke1_lv
+            db.db_update(con_string,
+                "UPDATE user_armee_lv SET dunklebaracke1_lv =" + dunklebaracke1_lvl.Value +
+                 ",dunklebaracke2_lv=" + dunklebaracke2_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //labor1_lv
+            db.db_update(con_string,
+               "UPDATE user_armee_lv SET labor1_lv =" + labor1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //zauberfabrik1_lv
+            db.db_update(con_string,
+               "UPDATE user_armee_lv SET zauberspruchfabrik1_lv =" + zauberfabrik1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //dunklezauberfabrik1_lv
+            db.db_update(con_string,
+               "UPDATE user_armee_lv SET dunklezauberspruchfabrik1_lv =" + darkzauberfabrik1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //bk1_lv
+            db.db_update(con_string,
+              "UPDATE user_helden_lv SET barbarenkoenig1_lv =" + bk1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //aq1_lv
+            db.db_update(con_string,
+              "UPDATE user_helden_lv SET bogenkoenigin1_lv =" + aq1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //gw1_lv
+            db.db_update(con_string,
+                "UPDATE user_helden_lv SET großerWaechter1_lv =" + gw1_lvl.Value + "WHERE user_id = " + label_uid.Text);
         }
 
         private void fill_numupdown(GroupBox box, int anzahl, string nameUD, string fieldname, string tableuser,  string table)
@@ -206,6 +240,17 @@ namespace Clash_of_Clans_Calculator
             fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Luftbomben"], 5, "luftbombe", "luftbombe", "user_fallen_lv", "Luftbombe");
             fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_targetLuftBomben"], 5, "targetluftbombe", "targetluftbombe", "user_fallen_lv", "TargetLuftbombe");
             fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Skelettfallen"], 3, "skelettfalle1", "skelettfalle", "user_fallen_lv", "Skelettfalle");
+            //Tab3 Armee
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Armeelager"], 4, "armeelager", "armeelager", "user_armee_lv", "Armeelager");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Baracken"], 4, "baracke", "baracke", "user_armee_lv", "Baracken");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_DunkleBaracken"], 2, "dunklebaracke", "dunklebaracke", "user_armee_lv", "dunkleBaracken");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Labor"], 1, "labor", "labor", "user_armee_lv", "Labor");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Zauberfabrik"], 1, "zauberfabrik", "zauberspruchfabrik", "user_armee_lv", "Zauberspruchfabrik");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_DarkZauberfabrik"], 1, "darkzauberfabrik", "dunklezauberspruchfabrik", "user_armee_lv", "dunkleZauberspruchfabrik");
+            //Tab4 Helden
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_bk"], 1, "bk", "barbarenkoenig", "user_helden_lv", "Barbarenkönig");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_bogk"], 1, "aq", "bogenkoenigin", "user_helden_lv", "Bogenkönigin");
+            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_gw"], 1, "gw", "großerWaechter", "user_helden_lv", "großerWaechter");
             string kosten = String.Format("{0:#,###0}",kosten_gesamt);
             label_kosten_gesamt.Text = kosten;
         }
