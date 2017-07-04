@@ -175,7 +175,7 @@
             this.groupBox_bk = new System.Windows.Forms.GroupBox();
             this.bk1_lvl = new System.Windows.Forms.NumericUpDown();
             this.tabPage_Produktion = new System.Windows.Forms.TabPage();
-            this.groupBox_ClanFestung = new System.Windows.Forms.GroupBox();
+            this.groupBox_Clanfestung = new System.Windows.Forms.GroupBox();
             this.Clanfestung1_lvl = new System.Windows.Forms.NumericUpDown();
             this.groupBox_darkElixierLager = new System.Windows.Forms.GroupBox();
             this.darkElixierLager1_lvl = new System.Windows.Forms.NumericUpDown();
@@ -359,7 +359,7 @@
             this.groupBox_bk.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bk1_lvl)).BeginInit();
             this.tabPage_Produktion.SuspendLayout();
-            this.groupBox_ClanFestung.SuspendLayout();
+            this.groupBox_Clanfestung.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).BeginInit();
             this.groupBox_darkElixierLager.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.darkElixierLager1_lvl)).BeginInit();
@@ -2170,7 +2170,7 @@
             // 
             // tabPage_Produktion
             // 
-            this.tabPage_Produktion.Controls.Add(this.groupBox_ClanFestung);
+            this.tabPage_Produktion.Controls.Add(this.groupBox_Clanfestung);
             this.tabPage_Produktion.Controls.Add(this.groupBox_darkElixierLager);
             this.tabPage_Produktion.Controls.Add(this.groupBox_darkElixierBohrer);
             this.tabPage_Produktion.Controls.Add(this.groupBox_Elixierlager);
@@ -2185,15 +2185,15 @@
             this.tabPage_Produktion.Text = "Produktion/Lager";
             this.tabPage_Produktion.UseVisualStyleBackColor = true;
             // 
-            // groupBox_ClanFestung
+            // groupBox_Clanfestung
             // 
-            this.groupBox_ClanFestung.Controls.Add(this.Clanfestung1_lvl);
-            this.groupBox_ClanFestung.Location = new System.Drawing.Point(664, 27);
-            this.groupBox_ClanFestung.Name = "groupBox_ClanFestung";
-            this.groupBox_ClanFestung.Size = new System.Drawing.Size(135, 92);
-            this.groupBox_ClanFestung.TabIndex = 27;
-            this.groupBox_ClanFestung.TabStop = false;
-            this.groupBox_ClanFestung.Text = "Clanfestung";
+            this.groupBox_Clanfestung.Controls.Add(this.Clanfestung1_lvl);
+            this.groupBox_Clanfestung.Location = new System.Drawing.Point(664, 27);
+            this.groupBox_Clanfestung.Name = "groupBox_Clanfestung";
+            this.groupBox_Clanfestung.Size = new System.Drawing.Size(135, 92);
+            this.groupBox_Clanfestung.TabIndex = 27;
+            this.groupBox_Clanfestung.TabStop = false;
+            this.groupBox_Clanfestung.Text = "Clanfestung";
             // 
             // Clanfestung1_lvl
             // 
@@ -2904,7 +2904,7 @@
             this.groupBox_bk.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bk1_lvl)).EndInit();
             this.tabPage_Produktion.ResumeLayout(false);
-            this.groupBox_ClanFestung.ResumeLayout(false);
+            this.groupBox_Clanfestung.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Clanfestung1_lvl)).EndInit();
             this.groupBox_darkElixierLager.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.darkElixierLager1_lvl)).EndInit();
@@ -3136,7 +3136,7 @@
         private System.Windows.Forms.NumericUpDown goldlager3_lvl;
         private System.Windows.Forms.NumericUpDown goldlager2_lvl;
         private System.Windows.Forms.NumericUpDown goldlager1_lvl;
-        private System.Windows.Forms.GroupBox groupBox_ClanFestung;
+        private System.Windows.Forms.GroupBox groupBox_Clanfestung;
         private System.Windows.Forms.NumericUpDown Clanfestung1_lvl;
         private System.Windows.Forms.GroupBox groupBox_darkElixierLager;
         private System.Windows.Forms.NumericUpDown darkElixierLager1_lvl;

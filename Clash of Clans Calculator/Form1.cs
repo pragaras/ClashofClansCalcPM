@@ -194,6 +194,51 @@ namespace Clash_of_Clans_Calculator
             //gw1_lv
             db.db_update(con_string,
                 "UPDATE user_helden_lv SET großerWaechter1_lv =" + gw1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //haupthaus1_lv
+            db.db_update(con_string,
+                 "UPDATE user_produktion_lv SET haupthaus1_lv =" + haupthaus1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //goldmine1_lv
+            db.db_update(con_string,
+                "UPDATE user_produktion_lv SET goldmine1_lv =" + goldmine1_lvl.Value +
+                ",goldmine2_lv=" + goldmine2_lvl.Value +
+                ",goldmine3_lv=" + goldmine3_lvl.Value +
+                ",goldmine4_lv=" + goldmine4_lvl.Value +
+                ",goldmine5_lv=" + goldmine5_lvl.Value +
+                ",goldmine6_lv=" + goldmine6_lvl.Value +
+                ",goldmine7_lv=" + goldmine7_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //elixiersammler1_lv
+            db.db_update(con_string,
+                "UPDATE user_produktion_lv SET elixiersammler1_lv =" + elixiersammler1_lvl.Value +
+                ",elixiersammler2_lv=" + elixiersammler2_lvl.Value +
+                ",elixiersammler3_lv=" + elixiersammler3_lvl.Value +
+                ",elixiersammler4_lv=" + elixiersammler4_lvl.Value +
+                ",elixiersammler5_lv=" + elixiersammler5_lvl.Value +
+                ",elixiersammler6_lv=" + elixiersammler6_lvl.Value +
+                ",elixiersammler7_lv=" + elixiersammler7_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //clanfestung1_lv
+            db.db_update(con_string,
+                 "UPDATE user_produktion_lv SET clanfestung1_lv =" + Clanfestung1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+            //dunklerElixierBohrer1_lv
+            db.db_update(con_string,
+                "UPDATE user_produktion_lv SET dunklerelixierbohrer1_lv =" + darkElixierBohrer1_lvl.Value +
+                ",dunklerelixierbohrer2_lv=" + darkElixierBohrer2_lvl.Value +
+                ",dunklerelixierbohrer3_lv=" + darkElixierBohrer3_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //goldlager1_lv
+            db.db_update(con_string,
+                "UPDATE user_produktion_lv SET goldlager1_lv =" + goldlager1_lvl.Value +
+                ",goldlager2_lv=" + goldlager2_lvl.Value +
+                ",goldlager3_lv=" + goldlager3_lvl.Value +
+                ",goldlager4_lv=" + goldlager4_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //elixierlager1_lv
+            db.db_update(con_string,
+                "UPDATE user_produktion_lv SET elixierlager1_lv =" + Elixierlager1_lvl.Value +
+                ",elixierlager2_lv=" + Elixierlager2_lvl.Value +
+                ",elixierlager3_lv=" + Elixierlager3_lvl.Value +
+                ",elixierlager4_lv=" + Elixierlager4_lvl.Value, "WHERE user_id = " + label_uid.Text);
+            //dunklesElixierlager1_lv
+            db.db_update(con_string,
+                "UPDATE user_produktion_lv SET dunkleselixierlager1_lv =" + darkElixierLager1_lvl.Value + "WHERE user_id = " + label_uid.Text);
+
         }
 
         private void fill_numupdown(GroupBox box, int anzahl, string nameUD, string fieldname, string tableuser,  string table)
@@ -241,16 +286,26 @@ namespace Clash_of_Clans_Calculator
             fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_targetLuftBomben"], 5, "targetluftbombe", "targetluftbombe", "user_fallen_lv", "TargetLuftbombe");
             fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Skelettfallen"], 3, "skelettfalle1", "skelettfalle", "user_fallen_lv", "Skelettfalle");
             //Tab3 Armee
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Armeelager"], 4, "armeelager", "armeelager", "user_armee_lv", "Armeelager");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Baracken"], 4, "baracke", "baracke", "user_armee_lv", "Baracken");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_DunkleBaracken"], 2, "dunklebaracke", "dunklebaracke", "user_armee_lv", "dunkleBaracken");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Labor"], 1, "labor", "labor", "user_armee_lv", "Labor");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupBox_Zauberfabrik"], 1, "zauberfabrik", "zauberspruchfabrik", "user_armee_lv", "Zauberspruchfabrik");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_DarkZauberfabrik"], 1, "darkzauberfabrik", "dunklezauberspruchfabrik", "user_armee_lv", "dunkleZauberspruchfabrik");
+            fill_numupdown((GroupBox)tabPage_Armee.Controls["groupBox_Armeelager"], 4, "armeelager", "armeelager", "user_armee_lv", "Armeelager");
+            fill_numupdown((GroupBox)tabPage_Armee.Controls["groupBox_Baracken"], 4, "baracke", "baracke", "user_armee_lv", "Baracken");
+            fill_numupdown((GroupBox)tabPage_Armee.Controls["groupBox_DunkleBaracken"], 2, "dunklebaracke", "dunklebaracke", "user_armee_lv", "dunkleBaracken");
+            fill_numupdown((GroupBox)tabPage_Armee.Controls["groupBox_Labor"], 1, "labor", "labor", "user_armee_lv", "Labor");
+            fill_numupdown((GroupBox)tabPage_Armee.Controls["groupBox_Zauberfabrik"], 1, "zauberfabrik", "zauberspruchfabrik", "user_armee_lv", "Zauberspruchfabrik");
+            fill_numupdown((GroupBox)tabPage_Armee.Controls["groupbox_DarkZauberfabrik"], 1, "darkzauberfabrik", "dunklezauberspruchfabrik", "user_armee_lv", "dunkleZauberspruchfabrik");
             //Tab4 Helden
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_bk"], 1, "bk", "barbarenkoenig", "user_helden_lv", "Barbarenkönig");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_bogk"], 1, "aq", "bogenkoenigin", "user_helden_lv", "Bogenkönigin");
-            fill_numupdown((GroupBox)tabPage_Fallen.Controls["groupbox_gw"], 1, "gw", "großerWaechter", "user_helden_lv", "großerWaechter");
+            fill_numupdown((GroupBox)tabPage_Helden.Controls["groupbox_bk"], 1, "bk", "barbarenkoenig", "user_helden_lv", "Barbarenkönig");
+            fill_numupdown((GroupBox)tabPage_Helden.Controls["groupbox_bogk"], 1, "aq", "bogenkoenigin", "user_helden_lv", "Bogenkönigin");
+            fill_numupdown((GroupBox)tabPage_Helden.Controls["groupbox_gw"], 1, "gw", "großerWaechter", "user_helden_lv", "großerWaechter");
+            //Tab5 Produktion/Lager
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_Haupthaus"], 1, "haupthaus", "haupthaus", "user_produktion_lv", "Haupthaus");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_Goldminen"], 7, "goldmine", "goldmine", "user_produktion_lv", "Goldmine");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_Elixiersammler"], 7, "elixiersammler", "elixiersammler", "user_produktion_lv", "Elixiersammler");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_Clanfestung"], 1, "Clanfestung", "clanfestung", "user_produktion_lv", "Clanfestung");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_darkElixierBohrer"], 3, "darkElixierBohrer", "dunklerElixierbohrer","user_produktion_lv", "dunklerElixierBohrer");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_goldlager"], 4, "goldlager", "goldlager", "user_produktion_lv", "Goldlager");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_Elixierlager"], 4, "Elixierlager", "elixierlager", "user_produktion_lv", "Elixierlager");
+            fill_numupdown((GroupBox)tabPage_Produktion.Controls["groupBox_darkElixierLager"], 1, "darkElixierLager", "dunklesElixierlager", "user_produktion_lv", "dunklesElixierlager");
+
             string kosten = String.Format("{0:#,###0}",kosten_gesamt);
             label_kosten_gesamt.Text = kosten;
         }
